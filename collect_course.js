@@ -5,40 +5,35 @@ const XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest;
 const cheerio = require('cheerio');
 const BASE = 'https://www.washington.edu/students/timeschd/SPR2017/';
 
-var catalog = '';
-var request = new XMLHttpRequest();
-request.open('GET', BASE, false);
-request.onload = function (){
-	if(this.status == 200 || this.status == 0){
-		catalog = cheerio.load(this.responseText);
-	}
-}
+var catalog = webpageRequest(BASE);
 
-request.send();
-
-var major = '';
-console.log(catalog('a').eq(70).attr('href'));
-
-request.open('GET', BASE + '/' + catalog('a').eq(70).attr('href'), false);
-request.onload = function (){
-	if(this.status == 200 || this.status == 0){
-		major =  cheerio.load(this.responseText);
-	}
-}
-
-request.send()
+console.log(BASE + catalog('a').eq(70).attr('href'));
+var major = webpageRequest(BASE + catalog('a').eq(70).attr('href'));
 
 
 var course = '';
 for(var i = 0; i < major('a').length; i++){
-	if(/[0-9]{5}/.test(major('a').eq(i).text().trim())){
+	if(/[0-9]{5}/.test(major('a').eq(i).text())){
+		console.log(i);
 		console.log(major('a').eq(i).attr('href'));
-		request.open('GET', major('a').eq(i).attr('href'), false);
-		request.onload = function (){
-			if(this.status == 200 || this.status == 0){}
-				course = cheerio.load(this.responseText);
-		};
-
-		request.send();
+		course = webpageRequest(major('a').eq(i).attr('href'));
 	}
+}
+
+
+console.log(course);
+
+function webpageRequest(url){
+	var dom = '';
+	var request = new XMLHttpRequest();
+	request.open('GET', url, false);
+	request.onload = function (){
+		if(this.status == 200 || this.status == 0){
+			dom = cheerio.load(this.responseText);
+		}
+	}
+
+	request.send();
+
+	return dom;
 }

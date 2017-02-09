@@ -3,24 +3,17 @@
 const fs = require('file-system');
 const XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest;
 
-require("jsdom").env("", function(err, window) {
-    if (err) {
-        console.error(err);
-        return;
-    }
- 
-    global.$ = require("jquery")(window);
-});
 
 var catalog = '';
 var request = new XMLHttpRequest();
+var parser = new DomParser();
 request.open('GET', 'https://www.washington.edu/students/timeschd/SPR2017/', false);
 request.onload = function (){
 	if(this.status == 200 || this.status == 0){
-		catalog = $.parseHTML();
+		document = parser.parseFromString(this.responseText, 'text/html');
 	}
 }
 
 request.send();
 
-console.log(catalog);
+console.log(document);

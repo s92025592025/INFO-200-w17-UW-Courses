@@ -6,23 +6,21 @@ const cheerio = require('cheerio');
 const BASE = 'https://www.washington.edu/students/timeschd/SPR2017/';
 
 var catalog = webpageRequest(BASE);
+var major_list = [];
 
-console.log(BASE + catalog('a').eq(70).attr('href'));
-var major = webpageRequest(BASE + catalog('a').eq(70).attr('href'));
-
-
-var course = '';
-for(var i = 0; i < major('a').length; i++){
-	if(/[0-9]{5}/.test(major('a').eq(i).text())){
-		console.log(i);
-		console.log(major('a').eq(i).attr('href'));
-		course = webpageRequest(major('a').eq(i).attr('href'));
+// get all the link to classes information
+for(var i = 0; i < catalog('a').length; i++){
+	if(/\.html$/.test(catalog('a').eq(i).attr('href')) &&
+		/\([A-Z]+\)/.test(catalog('a').eq(i).text())){
+		major_list.push(BASE + catalog('a').eq(i).attr('href'));
 	}
 }
 
 
-console.log(course);
 
+// pre: give a url that leads to a static webpage
+// post: will return a cheerio HTML dom if the request is successfully
+//		 requested
 function webpageRequest(url){
 	var dom = '';
 	var request = new XMLHttpRequest();

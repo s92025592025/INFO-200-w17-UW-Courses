@@ -53,6 +53,8 @@ for(var i = 0; i < major_list.length; i++){
 	if(content != ''){
 		//if the class is offered
 		course_list[major_list[i].match(/([a-z]+)\.html/)[1].toUpperCase()] = [];
+		var classTitle = "";
+		var classIndex = -1;
 		for(var s = 0; s < content('td').length; s++){
 			if(content('td').eq(s).text().match(/^([A-Z]+)\s+([12345][0-9][0-9])\s+(\w+[\s\w+]*)$/)){
 				var parse = content('td').eq(s).text().match(/^([A-Z]+)\s+([12345][0-9][0-9])\s+(\w+[\s\w+]*)$/);
@@ -61,7 +63,29 @@ for(var i = 0; i < major_list.length; i++){
 					title: parse[3],
 					sections: []
 				});
+				classTitle = major_list[i].match(/([a-z]+)\.html/)[1].toUpperCase();
+				classIndex++;
 				console.log(content('td').eq(s).text());
+			}else if(classTitle != '' && content('td').eq(s).text().match(/[\w+]*\s*([0-9]{5})/)){
+				console.log(classTitle);
+				var classInfo = content('td').eq(s).text().match(/[\w+]*\s*([0-9]{5})/);
+				var data = {
+						SLN: classInfo[1],
+						section: "",
+						type: '',
+						credit: '',
+						meeting: [
+							{
+								day: [],
+								time: '',
+								building: '',
+								room: ''
+							}
+						],
+						instructor: "",
+					}
+				console.log(content('td').eq(s).text());
+				course_list[classTitle][classIndex].sections.push(data);
 			}
 		}
 	}

@@ -53,6 +53,17 @@ for(var i = 0; i < major_list.length; i++){
 	if(content != ''){
 		//if the class is offered
 		course_list[major_list[i].match(/([a-z]+)\.html/)[1].toUpperCase()] = [];
+		for(var s = 0; s < content('td').length; s++){
+			if(content('td').eq(s).text().match(/^([A-Z]+)\s+([12345][0-9][0-9])\s+(\w+[\s\w+]*)$/)){
+				var parse = content('td').eq(s).text().match(/^([A-Z]+)\s+([12345][0-9][0-9])\s+(\w+[\s\w+]*)$/);
+				course_list[major_list[i].match(/([a-z]+)\.html/)[1].toUpperCase()].push({
+					num: parse[2],
+					title: parse[3],
+					sections: []
+				});
+				console.log(content('td').eq(s).text());
+			}
+		}
 	}
 }
 

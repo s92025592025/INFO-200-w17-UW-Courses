@@ -67,14 +67,15 @@ for(var i = 0; i < major_list.length; i++){
 				classIndex++;
 				console.log(content('td').eq(s).text());
 			}else if(classTitle != '' && 
-						content('td').eq(s).text().match(/.*([0-9]{5})\s([A-Z][A-Z]?)/)){
+						content('td').eq(s).text().
+							match(/.*([0-9]{5})\s([A-Z][A-Z]?)\s\s(QZ|[0-9][0-9]?\-?[0-9]?[0-9]?)/)){
 				console.log(classTitle);
-				var classInfo = content('td').eq(s).text().match(/.*([0-9]{5})\s([A-Z][A-Z]?)/);
+				var classInfo = content('td').eq(s).text().
+									match(/.*([0-9]{5})\s([A-Z][A-Z]?)\s\s(QZ|[0-9][0-9]?\-?[0-9]?[0-9]?)/);
 				var data = {
 						SLN: classInfo[1],
 						section: classInfo[2],
-						type: '',
-						credit: '',
+						credit: classInfo[3],
 						meeting: [
 							{
 								day: [],

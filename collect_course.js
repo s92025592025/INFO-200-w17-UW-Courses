@@ -68,26 +68,27 @@ for(var i = 0; i < major_list.length; i++){
 				console.log(content('td').eq(s).text());
 			}else if(classTitle != '' && 
 						content('td').eq(s).text().
-							match(/.*([0-9]{5})\s([A-Z][A-Z]?)\s\s(QZ|[0-9][0-9]?\-?[0-9]?[0-9]?)\s+([MTWThFSat\.]*\s+[0-9]{3,4}-[0-9]{3,4}P?)/)){
+							match(/.*([0-9]{5})\s([A-Z][A-Z]?)\s\s(QZ|[0-9][0-9]?\-?[0-9]?[0-9]?)\s+([MTWThFSat\.]+\s+[0-9]{3,4}\-[0-9]{3,4}P?\s+[A-Z]{3,}\s+[A-Z]?[0-9][0-9][0-9])\s+([A-Z\-]+,[A-Z \.\-]+)/)){
 				console.log(classTitle);
+				console.log(content('td').eq(s).text());
 				var classInfo = content('td').eq(s).text().
-									match(/.*([0-9]{5})\s([A-Z][A-Z]?)\s\s(QZ|[0-9][0-9]?\-?[0-9]?[0-9]?)\s+([MTWThFSat\.]*\s+[0-9]{3,4}-[0-9]{3,4}P?)/);
-				var meetingTimes = /([MTWThFSat\.]*\s+[0-9]{3,4}-[0-9]{3,4}P?)/;
+									match(/.*([0-9]{5})\s([A-Z][A-Z]?)\s\s(QZ|[0-9][0-9]?\-?[0-9]?[0-9]?)\s+([MTWThFSat\.]+\s+[0-9]{3,4}\-[0-9]{3,4}P?\s+[A-Z]{3,}\s+[A-Z]?[0-9][0-9][0-9])\s+([A-Z\-]+,[A-Z \.\-]+)/);
+				var meetingTimes = content('td').eq(s).text().match(/([MTWThFSat\.]+\s+[0-9]{3,4}\-[0-9]{3,4}P?\s+[A-Z]{3,}\s+[A-Z]?[0-9][0-9][0-9])/g);
 				var data = {
 						SLN: classInfo[1],
 						section: classInfo[2],
 						credit: classInfo[3],
-						meeting: [
-							{
-								day: [],
-								time: classInfo[4],
-								building: '',
-								room: ''
-							}
-						],
-						instructor: "",
-					}
-				console.log(content('td').eq(s).text());
+						meeting: [],
+						instructor: classInfo[5],
+					};
+				for(var j = 0; j < meetingTimes.length; j++){
+					data.meeting.push({
+						day: meetingTimes[j].match(/([MTWThFSat\.]+)/)[1],
+						time: meetingTimes[j].match(/[0-9]{3,4}\-[0-9]{3,4}P?/)[0],
+						building: meetingTimes[j].match(/[A-Z]{3,}/)[0],
+						room: meetingTimes[j].match(/[A-Z]?[0-9][0-9][0-9]/)[0]
+					});
+				}
 				course_list[classTitle][classIndex].sections.push(data);
 			}
 		}

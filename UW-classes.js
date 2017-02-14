@@ -21,7 +21,7 @@ module.exports.getAllClasses = function (){
 // post : will return a json object contains the list of classes provided,
 //		  or will return null
 module.exports.getMajorClasses = function (major){
-	major = major.toUpperCase();
+	major = major.toUpperCase().trim();
 	for(var key in classList){
 		if(key.includes(major)){
 			return classList[key];
@@ -30,3 +30,15 @@ module.exports.getMajorClasses = function (major){
 
 	return null;
 }
+
+// pre: should give class the class name and number in a format of 
+//		{class abbr}{ }{class num}. Example: JAPAN 211, MATH     308
+// post: will return a json object of that class, or return null if
+//		 the class information can't be provided
+module.exports.getClassSections = function (class){}
+
+
+// pre: should give class abbr to abbr and num to num
+// post: will return a json object of that class, or return null if
+//		 the class information can't be provided
+module.exports.getClassSections = function (abbr, num){}

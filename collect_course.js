@@ -68,10 +68,11 @@ for(var i = 0; i < major_list.length; i++){
 				console.log(content('td').eq(s).text());
 			}else if(classTitle != '' && 
 						content('td').eq(s).text().
-							match(/.*([0-9]{5})\s([A-Z][A-Z]?)\s\s(QZ|[0-9][0-9]?\-?[0-9]?[0-9]?)/)){
+							match(/.*([0-9]{5})\s([A-Z][A-Z]?)\s\s(QZ|[0-9][0-9]?\-?[0-9]?[0-9]?)\s+([MTWThFSat\.]*\s+[0-9]{3,4}-[0-9]{3,4}P?)/)){
 				console.log(classTitle);
 				var classInfo = content('td').eq(s).text().
-									match(/.*([0-9]{5})\s([A-Z][A-Z]?)\s\s(QZ|[0-9][0-9]?\-?[0-9]?[0-9]?)/);
+									match(/.*([0-9]{5})\s([A-Z][A-Z]?)\s\s(QZ|[0-9][0-9]?\-?[0-9]?[0-9]?)\s+([MTWThFSat\.]*\s+[0-9]{3,4}-[0-9]{3,4}P?)/);
+				var meetingTimes = /([MTWThFSat\.]*\s+[0-9]{3,4}-[0-9]{3,4}P?)/;
 				var data = {
 						SLN: classInfo[1],
 						section: classInfo[2],
@@ -79,7 +80,7 @@ for(var i = 0; i < major_list.length; i++){
 						meeting: [
 							{
 								day: [],
-								time: '',
+								time: classInfo[4],
 								building: '',
 								room: ''
 							}

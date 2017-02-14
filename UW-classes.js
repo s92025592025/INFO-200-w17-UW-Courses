@@ -47,7 +47,7 @@ module.exports.getClassSections = function (abbr, num){
 		abbr = abbr.split(/\s+/)[0];
 	}
 	var list = this.getMajorClasses(abbr);
-	
+
 	if(!list){
 		return list;
 	}
@@ -60,3 +60,5 @@ module.exports.getClassSections = function (abbr, num){
 
 	return null;
 }
+
+// next step: check a class by section or sln

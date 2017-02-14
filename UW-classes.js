@@ -28,5 +28,5 @@ module.exports.getMajorClasses = function (major){
 		}
 	}
 
-	retrn null;
+	return null;
 }

@@ -5,8 +5,12 @@
 'use strict';
 
 const fs = require('file-system');
+const classList = JSON.parse(fs.readFileSync())
 
-// module reference
+/* module reference
 module.exports.testing = function (){
 		console.log('this is the testing');
-;
+;*/
+
+
+module.exports.getAllClasses = function (){}

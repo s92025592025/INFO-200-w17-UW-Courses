@@ -12,7 +12,11 @@ module.exports.testing = function (){
 		console.log('this is the testing');
 ;*/
 
-// post will return the whole list of classes provided in spring 2017
+// post: will return the whole list of classes provided in spring 2017
 module.exports.getAllClasses = function (){
 	return classList;
 }
+
+// pre: should pass in the abbreviation of the major in all caps
+// post : will return a json object contains the list of classes provided
+module.exports.getMajorClasses = function (major){}

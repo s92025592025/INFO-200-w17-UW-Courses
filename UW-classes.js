@@ -5,12 +5,14 @@
 'use strict';
 
 const fs = require('file-system');
-const classList = JSON.parse(fs.readFileSync())
+const classList = JSON.parse(fs.readFileSync(__dirname + '/data/classes.json'));
 
 /* module reference
 module.exports.testing = function (){
 		console.log('this is the testing');
 ;*/
 
-
-module.exports.getAllClasses = function (){}
+// post will return the whole list of classes provided in spring 2017
+module.exports.getAllClasses = function (){
+	return classList;
+}

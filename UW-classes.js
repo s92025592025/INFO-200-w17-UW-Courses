@@ -31,14 +31,32 @@ module.exports.getMajorClasses = function (major){
 	return null;
 }
 
-// pre: should give class the class name and number in a format of 
-//		{class abbr}{ }{class num}. Example: JAPAN 211, MATH     308
+
+// pre: should give class abbr to abbr and num to num, both of them
+//		should be String. Or only assign the whole name + num to abbr.
+//		The format should be [class name] [class num]. 
+//		Ex: JAPAN 212, MATH     308
 // post: will return a json object of that class, or return null if
 //		 the class information can't be provided
-module.exports.getClassSections = function (class){}
+module.exports.getClassSections = function (abbr, num){
+	if(typeof num == 'undefined'){
+		if(abbr.split(/\s+/).length != 2){
+			return null;
+		}
+		num = abbr.split(/\s+/)[1];
+		abbr = abbr.split(/\s+/)[0];
+	}
+	var list = this.getMajorClasses(abbr);
+	
+	if(!list){
+		return list;
+	}
 
+	for(var i = 0; i < list.length; i++){
+		if(list[i].num == num.trim()){
+			return list[i].sections;
+		}
+	}
 
-// pre: should give class abbr to abbr and num to num
-// post: will return a json object of that class, or return null if
-//		 the class information can't be provided
-module.exports.getClassSections = function (abbr, num){}
+	return null;
+}

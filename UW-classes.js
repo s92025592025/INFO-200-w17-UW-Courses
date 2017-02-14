@@ -18,5 +18,15 @@ module.exports.getAllClasses = function (){
 }
 
 // pre: should pass in the abbreviation of the major in all caps
-// post : will return a json object contains the list of classes provided
-module.exports.getMajorClasses = function (major){}
+// post : will return a json object contains the list of classes provided,
+//		  or will return null
+module.exports.getMajorClasses = function (major){
+	major = major.toUpperCase();
+	for(var key in classList){
+		if(key.includes(major)){
+			return classList[key];
+		}
+	}
+
+	retrn null;
+}

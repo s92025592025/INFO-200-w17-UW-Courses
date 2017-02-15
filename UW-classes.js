@@ -61,4 +61,8 @@ module.exports.getClassSections = function (abbr, num){
 	return null;
 }
 
-// next step: check a class by section or sln
+// pre: should give section a String of section abbr, num, and section, or
+//		pass in a Number of SLN to section
+// post: will return the a detailed json of the Section specified, or else 
+//		 return null
+module.exports.getSectionInfo = function (section){}

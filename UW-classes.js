@@ -65,4 +65,39 @@ module.exports.getClassSections = function (abbr, num){
 //		pass in a Number of SLN to section
 // post: will return the a detailed json of the Section specified, or else 
 //		 return null
-module.exports.getSectionInfo = function (section){}
+module.exports.getSectionInfo = function (section){
+	if(typeof section == 'number'){
+		getSectionBySLN(number);
+	}
+
+	section = section.toUpperCase();
+
+	if(!section.match(/[A-Z]+\s+[0-9]{3}\s+[A-Z][A-Z]?/)){
+		return null;
+	}
+
+	section = section.match(/([A-Z]+)\s+([0-9]{3})\s+([A-Z][A-Z])?/);
+
+	var sectionList = this.getClassSections(section[1], section[2]);
+
+	if(!sectionList){
+		return sectionList;
+	}
+
+	// need to re structure out put json
+	for(var i = 0; i < sectionList.length; i++){
+		if(sectionList[i].section == section[3]){
+			return sectionList[i];
+		}
+	}
+
+	return null;
+}
+
+// pre: should take a 5 digit number that is UW class sln
+// post: will return the information of that class, or else null
+function getSectionBySLN (sln){
+	if(sln / 10000 < 1){
+		return null;
+	}
+}

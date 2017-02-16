@@ -5,12 +5,8 @@
 'use strict';
 
 const fs = require('file-system');
+const UWClass = require(__dirname + '/UW-classes.js');
 const classList = JSON.parse(fs.readFileSync(__dirname + '/data/classes.json'));
-
-/* module reference
-module.exports.testing = function (){
-		console.log('this is the testing');
-;*/
 
 // post: will return the whole list of classes provided in spring 2017
 module.exports.getAllClasses = function (){
@@ -67,7 +63,7 @@ module.exports.getClassSections = function (abbr, num){
 //		 return null
 module.exports.getSectionInfo = function (section){
 	if(typeof section == 'number'){
-		getSectionBySLN(number);
+		return this.getSectionBySLN(section);
 	}
 
 	section = section.toUpperCase();
@@ -98,8 +94,24 @@ module.exports.getSectionInfo = function (section){
 
 // pre: should take a 5 digit number that is UW class sln
 // post: will return the information of that class, or else null
-function getSectionBySLN (sln){
+module.exports.getSectionBySLN = function (sln){
 	if(sln / 10000 < 1){
 		return null;
 	}
+
+	var list = this.getAllClasses();
+	for(var key in list){
+		for(var i = 0; i < list[key]; i++){
+			for(var s = 0; s < list[key][i].sections.length; s++){
+				if(list[key][i].sections[s].SLN == sln){
+					list[key][i].sections[s].abbr = key;
+					list[key][i].sections[s].num = list[key][i].num;
+
+					return list[key][i].sections[s];
+				}
+			}
+		}
+	}
+
+	return null;
 }

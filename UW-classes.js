@@ -101,7 +101,7 @@ module.exports.getSectionBySLN = function (sln){
 
 	var list = this.getAllClasses();
 	for(var key in list){
-		for(var i = 0; i < list[key]; i++){
+		for(var i = 0; i < list[key].length; i++){
 			for(var s = 0; s < list[key][i].sections.length; s++){
 				if(list[key][i].sections[s].SLN == sln){
 					list[key][i].sections[s].abbr = key;

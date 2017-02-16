@@ -76,7 +76,7 @@ module.exports.getSectionInfo = function (section){
 		return null;
 	}
 
-	section = section.match(/([A-Z]+)\s+([0-9]{3})\s+([A-Z][A-Z])?/);
+	section = section.match(/([A-Z]+)\s+([0-9]{3})\s+([A-Z][A-Z]?)/);
 
 	var sectionList = this.getClassSections(section[1], section[2]);
 
@@ -87,6 +87,8 @@ module.exports.getSectionInfo = function (section){
 	// need to re structure out put json
 	for(var i = 0; i < sectionList.length; i++){
 		if(sectionList[i].section == section[3]){
+			sectionList[i].abbr = section[1];
+			sectionList[i].num = section[2]
 			return sectionList[i];
 		}
 	}

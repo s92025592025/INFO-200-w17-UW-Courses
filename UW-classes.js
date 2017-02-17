@@ -56,6 +56,12 @@ module.exports.getClassSections = function (abbr, num){
 	return null;
 }
 
+// pre: should give class abbr to abbr and num to num, lecture section to
+//		section, or give the whole chunk to abbr
+// post: will return the lecture section along with the avaliable Quiz Sections
+//		 in json format, or else return null
+module.exports.getQuizSections = function (abbr, num, section){}
+
 // pre: should give section a String of section abbr, num, and section, or
 //		pass in a Number of SLN to section
 // post: will return the a detailed json of the Section specified, or else 
@@ -115,7 +121,7 @@ module.exports.getSectionBySLN = function (sln){
 	return null;
 }
 
-// pre: should pass in a array of class(abbr num section) in String, or sln
+// pre: should pass in a array of class in String, or sln
 //		in number
 // post: will return a list of schedule in json format regardless the quality
 //		 of the schedule

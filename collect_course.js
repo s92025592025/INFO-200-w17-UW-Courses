@@ -95,7 +95,7 @@ for(var i = 0; i < major_list.length; i++){
 	}
 }
 
-fs.writeFileSync('classes.json', JSON.stringify(course_list, null, 4));
+fs.writeFileSync(__dirname + '/data/classes.json', JSON.stringify(course_list, null, 4));
 
 // pre: give a url that leads to a static webpage
 // post: will return a cheerio HTML dom if the request is successfully

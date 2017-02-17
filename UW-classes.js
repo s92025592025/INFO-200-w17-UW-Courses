@@ -114,3 +114,9 @@ module.exports.getSectionBySLN = function (sln){
 
 	return null;
 }
+
+// pre: should pass in a array of class(abbr num section) in String, or sln
+//		in number
+// post: will return a list of schedule in json format regardless the quality
+//		 of the schedule
+module.exports.buildSchedule = function (classes){}

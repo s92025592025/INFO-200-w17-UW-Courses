@@ -174,4 +174,17 @@ module.exports.getSectionBySLN = function (sln){
 //		 of the schedule
 module.exports.buildSchedule = function (classes){
 	// js stack: push(), pop()
+	// use stack and backtrack recursion
+	var schedules = [];
+	var classInfoList = [];
+
+	for(var i = 0; i < classes.length; i++){
+		if(classes[i].trim().match(/^[0-9]{5}$/)){
+			classInfoList.push(this.getSectionBySLN(Number(classes[i])));
+		}else if(classes[i].trim().match(/^[A-Z]+\s+[0-9]{3}$/)){
+			classInfoList.push(this.getClassSections(classes[i].trim()));
+		}else{
+			classInfoList.push(this.getQuizSections(classes[i].trim()));
+		}
+	}
 }

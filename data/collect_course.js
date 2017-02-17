@@ -68,11 +68,11 @@ for(var i = 0; i < major_list.length; i++){
 				console.log(content('td').eq(s).text());
 			}else if(classTitle != '' && 
 						content('td').eq(s).text().
-							match(/.*([0-9]{5})\s([A-Z][A-Z]?)\s\s(QZ|[0-9][0-9]?\-?[0-9]?[0-9]?)\s+([MTWThFSat\.]+\s+[0-9]{3,4}\-[0-9]{3,4}P?\s+[A-Z]{3,}\s+[A-Z]?[0-9][0-9][0-9])\s+([A-Z\-]+,[A-Z \.\-]+)/)){
+							match(/.*([0-9]{5})\s([A-Z][A-Z]?)\s\s(QZ|[0-9][0-9]?\-?[0-9]?[0-9]?)\s+([MTWThFSat\.]+\s+[0-9]{3,4}\-[0-9]{3,4}P?\s+[A-Z]{3,}\s+[A-Z]?[0-9][0-9][0-9])\s+([A-Z\-]+,[A-Z \.\-]+)?/)){
 				console.log(classTitle);
 				console.log(content('td').eq(s).text());
 				var classInfo = content('td').eq(s).text().
-									match(/.*([0-9]{5})\s([A-Z][A-Z]?)\s\s(QZ|[0-9][0-9]?\-?[0-9]?[0-9]?)\s+([MTWThFSat\.]+\s+[0-9]{3,4}\-[0-9]{3,4}P?\s+[A-Z]{3,}\s+[A-Z]?[0-9][0-9][0-9])\s+([A-Z\-]+,[A-Z \.\-]+)/);
+									match(/.*([0-9]{5})\s([A-Z][A-Z]?)\s\s(QZ|[0-9][0-9]?\-?[0-9]?[0-9]?)\s+([MTWThFSat\.]+\s+[0-9]{3,4}\-[0-9]{3,4}P?\s+[A-Z]{3,}\s+[A-Z]?[0-9][0-9][0-9])\s+([A-Z\-]+,[A-Z \.\-]+)?/);
 				var meetingTimes = content('td').eq(s).text().match(/([MTWThFSat\.]+\s+[0-9]{3,4}\-[0-9]{3,4}P?\s+[A-Z]{3,}\s+[A-Z]?[0-9][0-9][0-9])/g);
 				var data = {
 						SLN: classInfo[1],
@@ -95,7 +95,7 @@ for(var i = 0; i < major_list.length; i++){
 	}
 }
 
-fs.writeFileSync('classes.json', JSON.stringify(course_list, null, 4));
+fs.writeFileSync(__dirname + '/data/classes.json', JSON.stringify(course_list, null, 4));
 
 // pre: give a url that leads to a static webpage
 // post: will return a cheerio HTML dom if the request is successfully

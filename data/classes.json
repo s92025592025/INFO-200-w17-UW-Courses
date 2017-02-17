@@ -3,7 +3,22 @@
         {
             "num": "401",
             "title": "ARCTIC ISSUES",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "10467",
+                    "section": "A",
+                    "credit": "3",
+                    "meeting": [
+                        {
+                            "day": "TTh",
+                            "time": "930-1120",
+                            "building": "CMU",
+                            "room": "930"
+                        }
+                    ],
+                    "instructor": "MOORE,KENT                 O"
+                }
+            ]
         },
         {
             "num": "498",
@@ -56,7 +71,7 @@
                             "room": "330"
                         }
                     ],
-                    "instructor": "BUSHNELL,JEANETTE          O"
+                    "instructor": "BUSHNELL,JEANETTE          C"
                 }
             ]
         },
@@ -225,7 +240,7 @@
                         {
                             "day": "Th",
                             "time": "430-520P",
-                            "building": "MGH",
+                            "building": "MUS",
                             "room": "430"
                         }
                     ],
@@ -548,6 +563,11 @@
             "sections": []
         },
         {
+            "num": "498",
+            "title": "AES SPECIAL TOPICS",
+            "sections": []
+        },
+        {
             "num": "499",
             "title": "IND STDY & RESEARCH ",
             "sections": []
@@ -605,7 +625,28 @@
         {
             "num": "210",
             "title": "ASIAN AM PAC IS IDEN",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "10095",
+                    "section": "A",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "TTh",
+                            "time": "1130-120",
+                            "building": "CDH",
+                            "room": "113"
+                        },
+                        {
+                            "day": "F",
+                            "time": "1130-1220",
+                            "building": "CDH",
+                            "room": "113"
+                        }
+                    ],
+                    "instructor": "SO,CONNIE C.               O"
+                }
+            ]
         },
         {
             "num": "310",
@@ -682,7 +723,22 @@
         {
             "num": "200",
             "title": "LATINOS IN THE US",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "21401",
+                    "section": "A",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "MW",
+                            "time": "1130-120",
+                            "building": "ARC",
+                            "room": "113"
+                        }
+                    ],
+                    "instructor": "GUZMAN,GONZALO             O"
+                }
+            ]
         },
         {
             "num": "256",
@@ -829,7 +885,7 @@
                             "room": "113"
                         }
                     ],
-                    "instructor": "ATIENZA,RICHARD                      "
+                    "instructor": "ATIENZA,RICHARD                     "
                 }
             ]
         },
@@ -1001,14 +1057,29 @@
                             "room": "230"
                         }
                     ],
-                    "instructor": "HART,DANIEL                O"
+                    "instructor": "HART,DANIEL                C"
                 }
             ]
         },
         {
             "num": "475",
             "title": "RSCH INDGENOUS STDY ",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "21487",
+                    "section": "B",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "MW",
+                            "time": "1030-1220",
+                            "building": "AND",
+                            "room": "103"
+                        }
+                    ],
+                    "instructor": "HERNANDEZ,JESSICA          O"
+                }
+            ]
         },
         {
             "num": "480",
@@ -1052,7 +1123,7 @@
                         {
                             "day": "TTh",
                             "time": "1130-120",
-                            "building": "SAV",
+                            "building": "CMU",
                             "room": "113"
                         }
                     ],
@@ -1123,7 +1194,7 @@
                             "room": "830"
                         }
                     ],
-                    "instructor": "EVANS,BETSY E              O"
+                    "instructor": "EVANS,BETSY E              C"
                 }
             ]
         },
@@ -1288,6 +1359,11 @@
             ]
         },
         {
+            "num": "369",
+            "title": "SPEC PROB IN ANTH",
+            "sections": []
+        },
+        {
             "num": "399",
             "title": "JR HONORS SEMINAR",
             "sections": [
@@ -1328,7 +1404,7 @@
                             "room": "930"
                         }
                     ],
-                    "instructor": "HARRELL,STEVAN             O"
+                    "instructor": "HARRELL,STEVAN             C"
                 }
             ]
         },
@@ -1368,7 +1444,7 @@
                             "room": "123"
                         }
                     ],
-                    "instructor": "WASSINK,ALICIA BECKFORD    O"
+                    "instructor": "WASSINK,ALICIA BECKFORD    C"
                 }
             ]
         },
@@ -1433,7 +1509,7 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "AMRUTE,SAREETA BIPIN       O"
+                    "instructor": "AMRUTE,SAREETA BIPIN       C"
                 },
                 {
                     "SLN": "10346",
@@ -1626,6 +1702,11 @@
                     "instructor": "CARLSON,DAVID RAYMOND      O"
                 }
             ]
+        },
+        {
+            "num": "269",
+            "title": "SPEC TOPICS ARCHY",
+            "sections": []
         },
         {
             "num": "299",
@@ -1879,7 +1960,22 @@
         {
             "num": "353",
             "title": "PRTL DIFF EQNS& WVS ",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "10239",
+                    "section": "A",
+                    "credit": "3",
+                    "meeting": [
+                        {
+                            "day": "MWF",
+                            "time": "1030-1120",
+                            "building": "MWF",
+                            "room": "103"
+                        }
+                    ],
+                    "instructor": "SINHA,SAUMYA               O"
+                }
+            ]
         },
         {
             "num": "383",
@@ -1951,7 +2047,7 @@
                             "room": "120"
                         }
                     ],
-                    "instructor": "VOGL,CHRISTOPHER J.        O"
+                    "instructor": "VOGL,CHRISTOPHER J.        C"
                 }
             ]
         },
@@ -2103,7 +2199,22 @@
         {
             "num": "535",
             "title": "MATH ECOLOGY",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "10259",
+                    "section": "A",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "MWF",
+                            "time": "1030-1120",
+                            "building": "MWF",
+                            "room": "103"
+                        }
+                    ],
+                    "instructor": "KOT,MARK                   O"
+                }
+            ]
         },
         {
             "num": "569",
@@ -2554,20 +2665,6 @@
             "title": "INTRO 3D4M SCULPT",
             "sections": [
                 {
-                    "SLN": "10484",
-                    "section": "A",
-                    "credit": "5",
-                    "meeting": [
-                        {
-                            "day": "TTh",
-                            "time": "1130-220",
-                            "building": "ART",
-                            "room": "113"
-                        }
-                    ],
-                    "instructor": "SWAINE,MICHAEL EDWARD      O"
-                },
-                {
                     "SLN": "10485",
                     "section": "B",
                     "credit": "5",
@@ -2580,6 +2677,40 @@
                         }
                     ],
                     "instructor": "ROBERTS,SARAH K            O"
+                },
+                {
+                    "SLN": "21112",
+                    "section": "C",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "TTh",
+                            "time": "230-520",
+                            "building": "ART",
+                            "room": "230"
+                        }
+                    ],
+                    "instructor": "MEYER,ERIN H               O"
+                }
+            ]
+        },
+        {
+            "num": "273",
+            "title": "INTRO 3D4M METAL",
+            "sections": [
+                {
+                    "SLN": "10486",
+                    "section": "A",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "TTh",
+                            "time": "1130-220",
+                            "building": "CMA",
+                            "room": "113"
+                        }
+                    ],
+                    "instructor": "SWAINE,MICHAEL EDWARD      O"
                 }
             ]
         },
@@ -2672,7 +2803,7 @@
                             "room": "113"
                         }
                     ],
-                    "instructor": "PAZ,DANIELLE               O"
+                    "instructor": "PAZ,DANIELLE               C"
                 }
             ]
         },
@@ -2717,7 +2848,7 @@
                             "room": "230"
                         }
                     ],
-                    "instructor": "PAZ,DANIELLE               O"
+                    "instructor": "PAZ,DANIELLE               C"
                 }
             ]
         },
@@ -2737,7 +2868,7 @@
                             "room": "230"
                         }
                     ],
-                    "instructor": "BRODY,DAVID                O"
+                    "instructor": "BRODY,DAVID                C"
                 }
             ]
         },
@@ -2757,7 +2888,7 @@
                             "room": "230"
                         }
                     ],
-                    "instructor": "GOVEDARE,PHILIP B.         O"
+                    "instructor": "GOVEDARE,PHILIP B.         C"
                 }
             ]
         },
@@ -2777,7 +2908,7 @@
                             "room": "230"
                         }
                     ],
-                    "instructor": "GOVEDARE,PHILIP B.         O"
+                    "instructor": "GOVEDARE,PHILIP B.         C"
                 }
             ]
         },
@@ -2797,7 +2928,7 @@
                             "room": "230"
                         }
                     ],
-                    "instructor": "TIHANYI,TIMEA              O"
+                    "instructor": "TIHANYI,TIMEA              C"
                 }
             ]
         },
@@ -3207,7 +3338,7 @@
                             "room": "830"
                         }
                     ],
-                    "instructor": "MATTHEWS,KRISTINE          O"
+                    "instructor": "MATTHEWS,KRISTINE          C"
                 }
             ]
         },
@@ -3334,7 +3465,7 @@
                             "room": "123"
                         }
                     ],
-                    "instructor": "PAUWELS,HEIDI R.           O"
+                    "instructor": "PAUWELS,HEIDI R.           C"
                 }
             ]
         },
@@ -3497,7 +3628,7 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "YU,LIPING                            "
+                    "instructor": "YU,LIPING                           "
                 }
             ]
         },
@@ -3524,12 +3655,42 @@
         {
             "num": "203",
             "title": "2ND-YR CHIN-NH",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "12223",
+                    "section": "B",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "MTWThF",
+                            "time": "1030-1120",
+                            "building": "MTWT",
+                            "room": "103"
+                        }
+                    ],
+                    "instructor": "CAO,YU QING                          "
+                }
+            ]
         },
         {
             "num": "213",
             "title": "2ND-YR CHIN-H",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "12225",
+                    "section": "A",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "MTWThF",
+                            "time": "1030-1120",
+                            "building": "MTWT",
+                            "room": "103"
+                        }
+                    ],
+                    "instructor": "BI,NYAN-PING                         "
+                }
+            ]
         },
         {
             "num": "303",
@@ -3561,7 +3722,7 @@
                             "room": "930"
                         }
                     ],
-                    "instructor": "BI,NYAN-PING                         "
+                    "instructor": "BI,NYAN-PING                        "
                 }
             ]
         },
@@ -4304,7 +4465,7 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "MATSUDA-KIAMI,IZUMI        O"
+                    "instructor": "MATSUDA-KIAMI,IZUMI        C"
                 },
                 {
                     "SLN": "15572",
@@ -4332,7 +4493,7 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "MATSUDA-KIAMI,IZUMI        O"
+                    "instructor": "MATSUDA-KIAMI,IZUMI        C"
                 },
                 {
                     "SLN": "15576",
@@ -4374,7 +4535,7 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "MATSUDA-KIAMI,IZUMI        O"
+                    "instructor": "MATSUDA-KIAMI,IZUMI        C"
                 }
             ]
         },
@@ -4448,7 +4609,7 @@
                             "room": "900"
                         }
                     ],
-                    "instructor": "BHOWMIK,DAVINDER L.        O"
+                    "instructor": "BHOWMIK,DAVINDER L.        C"
                 }
             ]
         },
@@ -4607,12 +4768,55 @@
         {
             "num": "103",
             "title": "1ST-YR KOREAN",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "15768",
+                    "section": "A",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "TTh",
+                            "time": "1030-1120",
+                            "building": "CMU",
+                            "room": "103"
+                        }
+                    ],
+                    "instructor": "KIM,WOOJOO                 O"
+                },
+                {
+                    "SLN": "15774",
+                    "section": "B",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "TTh",
+                            "time": "1130-1220",
+                            "building": "CMU",
+                            "room": "113"
+                        }
+                    ],
+                    "instructor": "KIM,WOOJOO                 O"
+                }
+            ]
         },
         {
             "num": "203",
             "title": "2ND-YR KOREAN",
             "sections": [
+                {
+                    "SLN": "15780",
+                    "section": "A",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "TTh",
+                            "time": "1030-1120",
+                            "building": "RAI",
+                            "room": "103"
+                        }
+                    ],
+                    "instructor": "KIM,HYEIN                  O"
+                },
                 {
                     "SLN": "15781",
                     "section": "AA",
@@ -4625,7 +4829,7 @@
                             "room": "930"
                         }
                     ],
-                    "instructor": "KIM,HYEIN                            "
+                    "instructor": "KIM,HYEIN                  O"
                 }
             ]
         },
@@ -4986,6 +5190,26 @@
                         }
                     ],
                     "instructor": "SMITH,TOBY R.              O"
+                }
+            ]
+        },
+        {
+            "num": "190",
+            "title": "TOPICS IN ASTRONOMY ",
+            "sections": [
+                {
+                    "SLN": "21521",
+                    "section": "A",
+                    "credit": "3",
+                    "meeting": [
+                        {
+                            "day": "TTh",
+                            "time": "130-250",
+                            "building": "PAA",
+                            "room": "130"
+                        }
+                    ],
+                    "instructor": "LARSON,ANA M.              O"
                 }
             ]
         },
@@ -5484,7 +5708,7 @@
                             "room": "113"
                         }
                     ],
-                    "instructor": "HAUSER,LORENZ              O"
+                    "instructor": "HAUSER,LORENZ              C"
                 }
             ]
         },
@@ -5558,7 +5782,7 @@
                             "room": "930"
                         }
                     ],
-                    "instructor": "KENNEDY,MICHAEL L          O"
+                    "instructor": "KENNEDY,MICHAEL L          C"
                 },
                 {
                     "SLN": "11292",
@@ -5682,7 +5906,7 @@
                             "room": "123"
                         }
                     ],
-                    "instructor": "MARTIN-MORRIS,LINDA E      O"
+                    "instructor": "MARTIN-MORRIS,LINDA E      C"
                 },
                 {
                     "SLN": "11306",
@@ -5896,7 +6120,7 @@
                             "room": "930"
                         }
                     ],
-                    "instructor": "BUCHWITZ,BRIAN JOSEPH      O"
+                    "instructor": "BUCHWITZ,BRIAN JOSEPH      C"
                 },
                 {
                     "SLN": "11324",
@@ -5910,7 +6134,7 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "BUCHWITZ,BRIAN JOSEPH      O"
+                    "instructor": "BUCHWITZ,BRIAN JOSEPH      C"
                 },
                 {
                     "SLN": "11325",
@@ -6087,7 +6311,7 @@
                             "room": "830"
                         }
                     ],
-                    "instructor": "MCABEE,JESSICA             C"
+                    "instructor": "MCABEE,JESSICA             O"
                 }
             ]
         },
@@ -6107,7 +6331,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "RIFFELL,JEFFREY A          O"
+                    "instructor": "RIFFELL,JEFFREY A          C"
                 }
             ]
         },
@@ -6179,12 +6403,12 @@
                         },
                         {
                             "day": "F",
-                            "time": "100-450",
+                            "time": "130-420",
                             "building": "BMM",
-                            "room": "100"
+                            "room": "130"
                         }
                     ],
-                    "instructor": "WILSON,GREGORY             O"
+                    "instructor": "WILSON,GREGORY             C"
                 }
             ]
         },
@@ -6242,6 +6466,26 @@
                         }
                     ],
                     "instructor": "WARD,PETER D.              O"
+                },
+                {
+                    "SLN": "21497",
+                    "section": "B",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "MWF",
+                            "time": "130-220",
+                            "building": "MWF",
+                            "room": "130"
+                        },
+                        {
+                            "day": "MW",
+                            "time": "230-420",
+                            "building": "HCK",
+                            "room": "230"
+                        }
+                    ],
+                    "instructor": "WARD,PETER D.              O"
                 }
             ]
         },
@@ -6261,7 +6505,7 @@
                             "room": "930"
                         }
                     ],
-                    "instructor": "PETERSEN,KAREN E.          O"
+                    "instructor": "PETERSEN,KAREN E.          C"
                 }
             ]
         },
@@ -6397,7 +6641,7 @@
                             "room": "100"
                         }
                     ],
-                    "instructor": "WENDEROTH,MARY PAT         O"
+                    "instructor": "WENDEROTH,MARY PAT         C"
                 },
                 {
                     "SLN": "11366",
@@ -6411,7 +6655,7 @@
                             "room": "100"
                         }
                     ],
-                    "instructor": "WENDEROTH,MARY PAT         O"
+                    "instructor": "WENDEROTH,MARY PAT         C"
                 },
                 {
                     "SLN": "11367",
@@ -6445,7 +6689,7 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "DRAPER,MOON                O"
+                    "instructor": "DRAPER,MOON                C"
                 }
             ]
         },
@@ -6588,26 +6832,6 @@
             "sections": []
         },
         {
-            "num": "488",
-            "title": "PHYSIOLOGY SEMINAR",
-            "sections": [
-                {
-                    "SLN": "11381",
-                    "section": "A",
-                    "credit": "2",
-                    "meeting": [
-                        {
-                            "day": "W",
-                            "time": "330-420",
-                            "building": "JHN",
-                            "room": "330"
-                        }
-                    ],
-                    "instructor": "MOODY,WILLIAM J            C"
-                }
-            ]
-        },
-        {
             "num": "489",
             "title": "PLANT BIOL SEMINAR",
             "sections": [
@@ -6623,7 +6847,7 @@
                             "room": "100"
                         }
                     ],
-                    "instructor": "DISTILIO,VERONICA SANDRA   O"
+                    "instructor": "DISTILIO,VERONICA SANDRA   C"
                 }
             ]
         },
@@ -6669,7 +6893,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "ARSOVSKI,ANDREJ ADAM       O"
+                    "instructor": "ARSOVSKI,ANDREJ ADAM       C"
                 },
                 {
                     "SLN": "11385",
@@ -6743,7 +6967,7 @@
                             "room": "123"
                         }
                     ],
-                    "instructor": "LIEPKALNS,JUSTINE          O"
+                    "instructor": "LIEPKALNS,JUSTINE          C"
                 },
                 {
                     "SLN": "11389",
@@ -7177,6 +7401,20 @@
                         }
                     ],
                     "instructor": "KELLER,SARAH L.            O"
+                },
+                {
+                    "SLN": "11940",
+                    "section": "C",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "MWF",
+                            "time": "330-420",
+                            "building": "MWF",
+                            "room": "330"
+                        }
+                    ],
+                    "instructor": "CHONG,ERICA CHRISTINE      O"
                 }
             ]
         },
@@ -8096,6 +8334,20 @@
                     "instructor": "GARCIA,EDGAR A             O"
                 },
                 {
+                    "SLN": "12247",
+                    "section": "D",
+                    "credit": "2",
+                    "meeting": [
+                        {
+                            "day": "TTh",
+                            "time": "1030-1120",
+                            "building": "SIG",
+                            "room": "103"
+                        }
+                    ],
+                    "instructor": "GARCIA,EDGAR A             O"
+                },
+                {
                     "SLN": "12248",
                     "section": "E",
                     "credit": "2",
@@ -8169,7 +8421,35 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "CLARK,KONNOR               O"
+                    "instructor": "CLARK,KONNOR               C"
+                },
+                {
+                    "SLN": "21579",
+                    "section": "E",
+                    "credit": "3",
+                    "meeting": [
+                        {
+                            "day": "MWF",
+                            "time": "930-1020",
+                            "building": "MWF",
+                            "room": "930"
+                        }
+                    ],
+                    "instructor": "REQUEJO,ALBERTO A          O"
+                },
+                {
+                    "SLN": "21529",
+                    "section": "F",
+                    "credit": "3",
+                    "meeting": [
+                        {
+                            "day": "MWF",
+                            "time": "830-920",
+                            "building": "MWF",
+                            "room": "830"
+                        }
+                    ],
+                    "instructor": "REQUEJO,ALBERTO A          O"
                 }
             ]
         },
@@ -8223,7 +8503,7 @@
                             "room": "230"
                         }
                     ],
-                    "instructor": "KAMEN,DEBORAH E.           O"
+                    "instructor": "KAMEN,DEBORAH E.           C"
                 }
             ]
         },
@@ -8490,6 +8770,11 @@
             "sections": []
         },
         {
+            "num": "475",
+            "title": "IMPR TCH LATIN",
+            "sections": []
+        },
+        {
             "num": "490",
             "title": "SUPERVISED STUDY",
             "sections": []
@@ -8522,7 +8807,7 @@
                             "room": "330"
                         }
                     ],
-                    "instructor": "YASIN,EKIN                          "
+                    "instructor": "YASIN,EKIN                 O"
                 }
             ]
         },
@@ -8582,7 +8867,7 @@
                             "room": "830"
                         }
                     ],
-                    "instructor": "EVANS,BETSY E              O"
+                    "instructor": "EVANS,BETSY E              C"
                 }
             ]
         },
@@ -8647,7 +8932,7 @@
                             "room": "123"
                         }
                     ],
-                    "instructor": "BENNETT,WALTER LANCE       O"
+                    "instructor": "BENNETT,WALTER LANCE       C"
                 }
             ]
         },
@@ -8674,7 +8959,22 @@
         {
             "num": "332",
             "title": "HIST OF RHETORIC",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "12420",
+                    "section": "A",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "MW",
+                            "time": "1230-220",
+                            "building": "CMU",
+                            "room": "123"
+                        }
+                    ],
+                    "instructor": "MCGARRITY,MATTHEW K        C"
+                }
+            ]
         },
         {
             "num": "360",
@@ -8772,7 +9072,7 @@
                             "room": "113"
                         }
                     ],
-                    "instructor": "GONZALEZ,CARMEN            O"
+                    "instructor": "GONZALEZ,CARMEN            C"
                 }
             ]
         },
@@ -8817,7 +9117,7 @@
                             "room": "930"
                         }
                     ],
-                    "instructor": "KOLESOVA,EKATERINA         O"
+                    "instructor": "KOLESOVA,EKATERINA         C"
                 }
             ]
         },
@@ -8897,7 +9197,7 @@
                             "room": "930"
                         }
                     ],
-                    "instructor": "FICHET,ELODIE                        "
+                    "instructor": "FICHET,ELODIE                       "
                 }
             ]
         },
@@ -8957,7 +9257,7 @@
                             "room": "930"
                         }
                     ],
-                    "instructor": "POWERS,MATTHEW J.          O"
+                    "instructor": "POWERS,MATTHEW J.          C"
                 }
             ]
         },
@@ -8992,12 +9292,12 @@
                     "meeting": [
                         {
                             "day": "TTh",
-                            "time": "330-520",
+                            "time": "700-920P",
                             "building": "CMU",
-                            "room": "330"
+                            "room": "700"
                         }
                     ],
-                    "instructor": "NEFF,GINA S                          "
+                    "instructor": "SOUDERS,MICHAEL C.                   "
                 },
                 {
                     "SLN": "12461",
@@ -9011,7 +9311,7 @@
                             "room": "330"
                         }
                     ],
-                    "instructor": "BENNETT,WALTER LANCE       O"
+                    "instructor": "BENNETT,WALTER LANCE       C"
                 },
                 {
                     "SLN": "12462",
@@ -9033,13 +9333,13 @@
                     "credit": "5",
                     "meeting": [
                         {
-                            "day": "TTh",
-                            "time": "930-1120",
+                            "day": "M",
+                            "time": "1130-320",
                             "building": "CMU",
-                            "room": "930"
+                            "room": "113"
                         }
                     ],
-                    "instructor": "FEARN-BANKS,KATHLEEN A.    O"
+                    "instructor": "FEARN-BANKS,KATHLEEN A.             "
                 }
             ]
         },
@@ -9274,26 +9574,6 @@
             "sections": []
         },
         {
-            "num": "298",
-            "title": "PRE-DEPART SEMINARS ",
-            "sections": [
-                {
-                    "SLN": "12181",
-                    "section": "B",
-                    "credit": "2",
-                    "meeting": [
-                        {
-                            "day": "F",
-                            "time": "130-320",
-                            "building": "THO",
-                            "room": "130"
-                        }
-                    ],
-                    "instructor": "ANDRESEN,THIRD                       "
-                }
-            ]
-        },
-        {
             "num": "380",
             "title": "THEORIES STDY RELIG ",
             "sections": [
@@ -9343,7 +9623,7 @@
                             "room": "123"
                         }
                     ],
-                    "instructor": "SIMPSON,CAROLINE CHUNG     O"
+                    "instructor": "SIMPSON,CAROLINE CHUNG               "
                 }
             ]
         },
@@ -9546,7 +9826,7 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "AMES,ERIC C.               O"
+                    "instructor": "AMES,ERIC C.               C"
                 }
             ]
         },
@@ -9593,7 +9873,28 @@
         {
             "num": "314",
             "title": "HISTORY OF TV",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "12320",
+                    "section": "A",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "T",
+                            "time": "1130-120",
+                            "building": "DEN",
+                            "room": "113"
+                        },
+                        {
+                            "day": "Th",
+                            "time": "1130-120",
+                            "building": "DEN",
+                            "room": "113"
+                        }
+                    ],
+                    "instructor": "GROENING,STEPHEN F         O"
+                }
+            ]
         },
         {
             "num": "320",
@@ -9626,6 +9927,20 @@
                         }
                     ],
                     "instructor": "MACK,EDWARD T              O"
+                },
+                {
+                    "SLN": "21557",
+                    "section": "C",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "TTh",
+                            "time": "330-520",
+                            "building": "PDL",
+                            "room": "330"
+                        }
+                    ],
+                    "instructor": "ALANIZ,JOSE                O"
                 }
             ]
         },
@@ -9677,7 +9992,22 @@
         {
             "num": "470",
             "title": "ADV SCREENWRITING",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "12326",
+                    "section": "A",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "MW",
+                            "time": "130-320",
+                            "building": "DEN",
+                            "room": "130"
+                        }
+                    ],
+                    "instructor": "WONG,SHAWN H                        "
+                }
+            ]
         },
         {
             "num": "480",
@@ -9747,7 +10077,7 @@
                             "room": "330"
                         }
                     ],
-                    "instructor": "DEYOUNG,TERRI LYNN         O"
+                    "instructor": "DEYOUNG,TERRI LYNN         C"
                 }
             ]
         },
@@ -10134,6 +10464,11 @@
             ]
         },
         {
+            "num": "234",
+            "title": "WORLD DANCE & CLTR",
+            "sections": []
+        },
+        {
             "num": "236",
             "title": "SALSA/LATIN DANCE",
             "sections": [
@@ -10160,40 +10495,6 @@
                             "day": "MWF",
                             "time": "230-420",
                             "building": "MWF",
-                            "room": "230"
-                        }
-                    ],
-                    "instructor": "MCMAINS,JULIET             O"
-                }
-            ]
-        },
-        {
-            "num": "237",
-            "title": "BALLROOM DANCE",
-            "sections": [
-                {
-                    "SLN": "13021",
-                    "section": "A",
-                    "credit": "2",
-                    "meeting": [
-                        {
-                            "day": "TTh",
-                            "time": "230-420",
-                            "building": "MNY",
-                            "room": "230"
-                        }
-                    ],
-                    "instructor": "MCMAINS,JULIET             O"
-                },
-                {
-                    "SLN": "13022",
-                    "section": "B",
-                    "credit": "2",
-                    "meeting": [
-                        {
-                            "day": "TTh",
-                            "time": "230-420",
-                            "building": "MNY",
                             "room": "230"
                         }
                     ],
@@ -10528,7 +10829,7 @@
                             "room": "230"
                         }
                     ],
-                    "instructor": "JARMICK,MARTIN HUGO                  "
+                    "instructor": "JARMICK,MARTIN HUGO                 "
                 }
             ]
         },
@@ -10786,7 +11087,7 @@
                             "room": "113"
                         }
                     ],
-                    "instructor": "MAGELSSEN,SCOTT            O"
+                    "instructor": "MAGELSSEN,SCOTT            C"
                 }
             ]
         },
@@ -10871,7 +11172,7 @@
                             "room": "200"
                         }
                     ],
-                    "instructor": "JENKINS,MARK F.                      "
+                    "instructor": "JENKINS,MARK F.                     "
                 }
             ]
         },
@@ -10891,7 +11192,7 @@
                             "room": "930"
                         }
                     ],
-                    "instructor": "CONNORS,BRIDGET                      "
+                    "instructor": "CONNORS,BRIDGET                     "
                 }
             ]
         },
@@ -11113,7 +11414,7 @@
                             "room": "230"
                         }
                     ],
-                    "instructor": "RABOTYAGOV,SERGEY S.       O"
+                    "instructor": "RABOTYAGOV,SERGEY S.       C"
                 }
             ]
         },
@@ -11189,7 +11490,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "KNOX,MELISSA A             O"
+                    "instructor": "KNOX,MELISSA A             C"
                 },
                 {
                     "SLN": "13436",
@@ -11243,7 +11544,7 @@
                             "room": "330"
                         }
                     ],
-                    "instructor": "RAO,JUSTIN M               O"
+                    "instructor": "RAO,JUSTIN M               C"
                 }
             ]
         },
@@ -11263,7 +11564,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "TAPIA,CHRISTINA            O"
+                    "instructor": "TAPIA,CHRISTINA            C"
                 }
             ]
         },
@@ -11283,14 +11584,29 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "ADOLPH,CHRISTOPHER A       O"
+                    "instructor": "ADOLPH,CHRISTOPHER A       C"
                 }
             ]
         },
         {
             "num": "422",
             "title": "INVESTM CAPTL FNANC ",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "13441",
+                    "section": "A",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "TTh",
+                            "time": "130-320",
+                            "building": "MLR",
+                            "room": "130"
+                        }
+                    ],
+                    "instructor": "YANG,MUJEUNG               C"
+                }
+            ]
         },
         {
             "num": "423",
@@ -11308,7 +11624,7 @@
                             "room": "330"
                         }
                     ],
-                    "instructor": "TAPIA,CHRISTINA            O"
+                    "instructor": "TAPIA,CHRISTINA            C"
                 }
             ]
         },
@@ -11368,7 +11684,7 @@
                             "room": "330"
                         }
                     ],
-                    "instructor": "HALVORSEN,ROBERT F         O"
+                    "instructor": "HALVORSEN,ROBERT F         C"
                 }
             ]
         },
@@ -11408,7 +11724,7 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "KNOX,MELISSA A             O"
+                    "instructor": "KNOX,MELISSA A             C"
                 }
             ]
         },
@@ -11420,7 +11736,22 @@
         {
             "num": "454",
             "title": "COST-BENEFIT ANLYS",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "13449",
+                    "section": "A",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "MW",
+                            "time": "1230-220",
+                            "building": "DEN",
+                            "room": "123"
+                        }
+                    ],
+                    "instructor": "HALVORSEN,ROBERT F         C"
+                }
+            ]
         },
         {
             "num": "464",
@@ -11515,12 +11846,6 @@
                             "time": "530-720P",
                             "building": "SAV",
                             "room": "530"
-                        },
-                        {
-                            "day": "W",
-                            "time": "730-820P",
-                            "building": "ART",
-                            "room": "730"
                         }
                     ],
                     "instructor": "DUNCAN,GREGORY             O"
@@ -11713,7 +12038,22 @@
         {
             "num": "586",
             "title": "TIME SERIES ANALYSIS",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "13467",
+                    "section": "A",
+                    "credit": "3",
+                    "meeting": [
+                        {
+                            "day": "MW",
+                            "time": "130-250",
+                            "building": "ART",
+                            "room": "130"
+                        }
+                    ],
+                    "instructor": "KIM,CHANG JIN              O"
+                }
+            ]
         },
         {
             "num": "596",
@@ -11737,11 +12077,6 @@
         }
     ],
     "ENGL": [
-        {
-            "num": "102",
-            "title": "CRIT READ & WRITING ",
-            "sections": []
-        },
         {
             "num": "103",
             "title": "WRITING FRM SOURCES ",
@@ -11797,6 +12132,48 @@
             "title": "WRITING/SOC SCI",
             "sections": [
                 {
+                    "SLN": "13869",
+                    "section": "A",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "TTh",
+                            "time": "1200-120",
+                            "building": "BAG",
+                            "room": "120"
+                        }
+                    ],
+                    "instructor": "BAUER,MEREDITH A.          O"
+                },
+                {
+                    "SLN": "13871",
+                    "section": "C",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "MWF",
+                            "time": "1130-1220",
+                            "building": "MWF",
+                            "room": "113"
+                        }
+                    ],
+                    "instructor": "HOTZ,ALYSSE JACLYN         O"
+                },
+                {
+                    "SLN": "13872",
+                    "section": "D",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "MWF",
+                            "time": "1230-120",
+                            "building": "MWF",
+                            "room": "123"
+                        }
+                    ],
+                    "instructor": "KNAPP,CALEB BYRON          O"
+                },
+                {
                     "SLN": "13873",
                     "section": "E",
                     "credit": "5",
@@ -11809,6 +12186,34 @@
                         }
                     ],
                     "instructor": "MATTHEWS,CARRIE R          O"
+                },
+                {
+                    "SLN": "21626",
+                    "section": "F",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "MW",
+                            "time": "200-320",
+                            "building": "SAV",
+                            "room": "200"
+                        }
+                    ],
+                    "instructor": "HODGES,ROBERT H            O"
+                },
+                {
+                    "SLN": "21627",
+                    "section": "G",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "MW",
+                            "time": "200-320",
+                            "building": "SAV",
+                            "room": "200"
+                        }
+                    ],
+                    "instructor": "HODGES,ROBERT H            O"
                 }
             ]
         },
@@ -11857,6 +12262,20 @@
                         }
                     ],
                     "instructor": "CALLOW,MEGAN               O"
+                },
+                {
+                    "SLN": "13878",
+                    "section": "E",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "MWF",
+                            "time": "1230-120",
+                            "building": "MWF",
+                            "room": "123"
+                        }
+                    ],
+                    "instructor": "DYKEMA,JULIE               O"
                 }
             ]
         },
@@ -12034,7 +12453,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "DEROSA,JAMES BROOKS        O"
+                    "instructor": "DEROSA,JAMES BROOKS        C"
                 }
             ]
         },
@@ -12150,7 +12569,7 @@
                             "room": "113"
                         }
                     ],
-                    "instructor": "HELTERBRAND,RYAN M         O"
+                    "instructor": "HELTERBRAND,RYAN M         C"
                 },
                 {
                     "SLN": "13899",
@@ -12278,7 +12697,7 @@
                             "room": "123"
                         }
                     ],
-                    "instructor": "GROVES,JASON               O"
+                    "instructor": "GROVES,JASON               C"
                 }
             ]
         },
@@ -12309,6 +12728,20 @@
                         }
                     ],
                     "instructor": "LOUIE,CAMERON              O"
+                },
+                {
+                    "SLN": "13913",
+                    "section": "B",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "TTh",
+                            "time": "930-1050",
+                            "building": "CMU",
+                            "room": "930"
+                        }
+                    ],
+                    "instructor": "SCHLESINGER,LAUREN         O"
                 }
             ]
         },
@@ -12329,6 +12762,20 @@
                         }
                     ],
                     "instructor": "HALSTEAD,KIMBERLY          O"
+                },
+                {
+                    "SLN": "13916",
+                    "section": "B",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "TTh",
+                            "time": "930-1050",
+                            "building": "CMU",
+                            "room": "930"
+                        }
+                    ],
+                    "instructor": "MOUNTFORD,PETER N. T.      O"
                 }
             ]
         },
@@ -12363,6 +12810,20 @@
                         }
                     ],
                     "instructor": "LAUFENBERG,HENRY J         O"
+                },
+                {
+                    "SLN": "13921",
+                    "section": "D",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "MWF",
+                            "time": "1030-1120",
+                            "building": "MWF",
+                            "room": "103"
+                        }
+                    ],
+                    "instructor": "BOULLET,RENE J             O"
                 }
             ]
         },
@@ -12382,7 +12843,21 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "SIMMONS-ONEILL,ELIZABETH             "
+                    "instructor": "SIMMONS-ONEILL,ELIZABETH   O"
+                },
+                {
+                    "SLN": "13924",
+                    "section": "B",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "MWF",
+                            "time": "1130-1220",
+                            "building": "MWF",
+                            "room": "113"
+                        }
+                    ],
+                    "instructor": "GARNER,CALVIN H            O"
                 }
             ]
         },
@@ -12417,6 +12892,20 @@
                         }
                     ],
                     "instructor": "MALEY,STEPHEN N.           O"
+                },
+                {
+                    "SLN": "13932",
+                    "section": "C",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "TTh",
+                            "time": "200-320",
+                            "building": "THO",
+                            "room": "200"
+                        }
+                    ],
+                    "instructor": "SIMON,SAMANTHA             O"
                 }
             ]
         },
@@ -12615,7 +13104,7 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "HANDWERK,GARY J            O"
+                    "instructor": "HANDWERK,GARY J            C"
                 }
             ]
         },
@@ -12939,7 +13428,7 @@
                             "room": "123"
                         }
                     ],
-                    "instructor": "CHUDE-SOKEI,LOUIS ORT                "
+                    "instructor": "CHUDE-SOKEI,LOUIS ORT               "
                 },
                 {
                     "SLN": "13972",
@@ -12953,7 +13442,7 @@
                             "room": "123"
                         }
                     ],
-                    "instructor": "CUMMINGS,KATHERINE                   "
+                    "instructor": "CUMMINGS,KATHERINE                  "
                 }
             ]
         },
@@ -13023,24 +13512,9 @@
             ]
         },
         {
-            "num": "532",
-            "title": "19TH CENT AMER LIT",
-            "sections": [
-                {
-                    "SLN": "13977",
-                    "section": "A",
-                    "credit": "5",
-                    "meeting": [
-                        {
-                            "day": "TTh",
-                            "time": "130-320",
-                            "building": "MLR",
-                            "room": "130"
-                        }
-                    ],
-                    "instructor": "SEARLE,LEROY F             O"
-                }
-            ]
+            "num": "535",
+            "title": "AMER CULTURE & CRIT ",
+            "sections": []
         },
         {
             "num": "544",
@@ -13287,7 +13761,7 @@
                             "room": "330"
                         }
                     ],
-                    "instructor": "ALLEN,CAROLYN                        "
+                    "instructor": "ALLEN,CAROLYN                       "
                 }
             ]
         },
@@ -13660,7 +14134,7 @@
                             "room": "430"
                         }
                     ],
-                    "instructor": "TATTA,SABRINA              O"
+                    "instructor": "TATTA,SABRINA              C"
                 },
                 {
                     "SLN": "15496",
@@ -13674,7 +14148,7 @@
                             "room": "230"
                         }
                     ],
-                    "instructor": "TATTA,SABRINA              O"
+                    "instructor": "TATTA,SABRINA              C"
                 }
             ]
         },
@@ -13792,6 +14266,62 @@
                         }
                     ],
                     "instructor": "LEE,REGINA Y               O"
+                },
+                {
+                    "SLN": "14807",
+                    "section": "AA",
+                    "credit": "QZ",
+                    "meeting": [
+                        {
+                            "day": "F",
+                            "time": "1030-1120",
+                            "building": "SAV",
+                            "room": "103"
+                        }
+                    ],
+                    "instructor": "TIAN,YIYU                  O"
+                },
+                {
+                    "SLN": "14808",
+                    "section": "AB",
+                    "credit": "QZ",
+                    "meeting": [
+                        {
+                            "day": "F",
+                            "time": "1030-1120",
+                            "building": "SAV",
+                            "room": "103"
+                        }
+                    ],
+                    "instructor": "MORADO-PETERS,POLLY M      O"
+                },
+                {
+                    "SLN": "14809",
+                    "section": "AC",
+                    "credit": "QZ",
+                    "meeting": [
+                        {
+                            "day": "F",
+                            "time": "1130-1220",
+                            "building": "SAV",
+                            "room": "113"
+                        }
+                    ],
+                    "instructor": "TIAN,YIYU                  O"
+                },
+                {
+                    "SLN": "14810",
+                    "section": "AD",
+                    "credit": "QZ",
+                    "meeting": [
+                        {
+                            "day": "F",
+                            "time": "1130-1220",
+                            "building": "SAV",
+                            "room": "113"
+                        }
+                    ],
+                    "instructor": "MORADO-PETERS,POLLY M      O"
                 }
             ]
         },
@@ -13812,6 +14342,34 @@
                         }
                     ],
                     "instructor": "KEATING,CHRISTINE          O"
+                },
+                {
+                    "SLN": "14813",
+                    "section": "AB",
+                    "credit": "QZ",
+                    "meeting": [
+                        {
+                            "day": "F",
+                            "time": "230-320",
+                            "building": "PAR",
+                            "room": "230"
+                        }
+                    ],
+                    "instructor": "SAUNG,JANE                 O"
+                },
+                {
+                    "SLN": "14815",
+                    "section": "AD",
+                    "credit": "QZ",
+                    "meeting": [
+                        {
+                            "day": "F",
+                            "time": "130-220",
+                            "building": "PAR",
+                            "room": "130"
+                        }
+                    ],
+                    "instructor": "SAUNG,JANE                 O"
                 }
             ]
         },
@@ -13851,14 +14409,9 @@
                             "room": "123"
                         }
                     ],
-                    "instructor": "HELLRUNG,ALYSSA            O"
+                    "instructor": "HELLRUNG,ALYSSA            C"
                 }
             ]
-        },
-        {
-            "num": "290",
-            "title": "SPEC TOP WOMEN STDY ",
-            "sections": []
         },
         {
             "num": "300",
@@ -13896,14 +14449,85 @@
                             "room": "113"
                         }
                     ],
-                    "instructor": "NOVOTNY,PATRICIA S.        O"
+                    "instructor": "NOVOTNY,PATRICIA S.        C"
                 }
             ]
         },
         {
             "num": "328",
             "title": "GENDER SEX CHINA",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "21514",
+                    "section": "A",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "MW",
+                            "time": "230-420",
+                            "building": "CMU",
+                            "room": "230"
+                        }
+                    ],
+                    "instructor": "WELLAND,SASHA              O"
+                },
+                {
+                    "SLN": "21515",
+                    "section": "AA",
+                    "credit": "QZ",
+                    "meeting": [
+                        {
+                            "day": "F",
+                            "time": "930-1020",
+                            "building": "LOW",
+                            "room": "930"
+                        }
+                    ],
+                    "instructor": "KHASAWNIH,ALMA             O"
+                },
+                {
+                    "SLN": "21516",
+                    "section": "AB",
+                    "credit": "QZ",
+                    "meeting": [
+                        {
+                            "day": "F",
+                            "time": "1030-1120",
+                            "building": "LOW",
+                            "room": "103"
+                        }
+                    ],
+                    "instructor": "KHASAWNIH,ALMA             O"
+                },
+                {
+                    "SLN": "21517",
+                    "section": "AC",
+                    "credit": "QZ",
+                    "meeting": [
+                        {
+                            "day": "F",
+                            "time": "1130-1220",
+                            "building": "LOW",
+                            "room": "113"
+                        }
+                    ],
+                    "instructor": "WANG,YINGYI                O"
+                },
+                {
+                    "SLN": "21518",
+                    "section": "AD",
+                    "credit": "QZ",
+                    "meeting": [
+                        {
+                            "day": "F",
+                            "time": "1230-120",
+                            "building": "LOW",
+                            "room": "123"
+                        }
+                    ],
+                    "instructor": "WANG,YINGYI                O"
+                }
+            ]
         },
         {
             "num": "357",
@@ -13931,6 +14555,11 @@
             "sections": []
         },
         {
+            "num": "409",
+            "title": "QUEER HEALTH",
+            "sections": []
+        },
+        {
             "num": "427",
             "title": "WOMEN AND VIOLENCE",
             "sections": [
@@ -13951,26 +14580,6 @@
             ]
         },
         {
-            "num": "486",
-            "title": "BEYOND THE BINARIES ",
-            "sections": [
-                {
-                    "SLN": "14835",
-                    "section": "A",
-                    "credit": "5",
-                    "meeting": [
-                        {
-                            "day": "TTh",
-                            "time": "930-1120",
-                            "building": "PAR",
-                            "room": "930"
-                        }
-                    ],
-                    "instructor": "NISHIME,LEILANI            C"
-                }
-            ]
-        },
-        {
             "num": "490",
             "title": "SPEC TOP WOMEN STDY ",
             "sections": [
@@ -13987,6 +14596,20 @@
                         }
                     ],
                     "instructor": "YEE,SHIRLEY J.             O"
+                },
+                {
+                    "SLN": "21548",
+                    "section": "C",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "MW",
+                            "time": "130-320",
+                            "building": "BLD",
+                            "room": "130"
+                        }
+                    ],
+                    "instructor": "MISRA,AKANKSHA             O"
                 }
             ]
         },
@@ -14057,7 +14680,7 @@
                         {
                             "day": "TTh",
                             "time": "1130-120",
-                            "building": "SAV",
+                            "building": "CMU",
                             "room": "113"
                         }
                     ],
@@ -14291,7 +14914,7 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "WILSON,MARGARET M.         O"
+                    "instructor": "WILSON,MARGARET M.         C"
                 },
                 {
                     "SLN": "14724",
@@ -14446,7 +15069,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "NASLUND,SKYE J.            O"
+                    "instructor": "NASLUND,SKYE J.                     "
                 }
             ]
         },
@@ -14539,7 +15162,7 @@
                             "room": "113"
                         }
                     ],
-                    "instructor": "ELWOOD-FAUSTINO,SARAH A.   O"
+                    "instructor": "ELWOOD-FAUSTINO,SARAH A.            "
                 }
             ]
         },
@@ -14930,7 +15553,22 @@
         {
             "num": "365",
             "title": "MEDIEVAL ENGLAND",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "15055",
+                    "section": "A",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "TTh",
+                            "time": "130-320",
+                            "building": "THO",
+                            "room": "130"
+                        }
+                    ],
+                    "instructor": "URBANSKI,CHARITY L.        O"
+                }
+            ]
         },
         {
             "num": "370",
@@ -15047,26 +15685,6 @@
             "sections": [
                 {
                     "SLN": "21462",
-                    "section": "A",
-                    "credit": "5",
-                    "meeting": [
-                        {
-                            "day": "TTh",
-                            "time": "1030-1150",
-                            "building": "SMI",
-                            "room": "103"
-                        }
-                    ],
-                    "instructor": "WEBSTER,JENNIFER R         O"
-                }
-            ]
-        },
-        {
-            "num": "490",
-            "title": "AFRICA & MID EAST",
-            "sections": [
-                {
-                    "SLN": "15047",
                     "section": "A",
                     "credit": "5",
                     "meeting": [
@@ -15330,7 +15948,22 @@
         {
             "num": "361",
             "title": "GOLDEN AGE SPAIN",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "15080",
+                    "section": "A",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "MW",
+                            "time": "130-320",
+                            "building": "FSH",
+                            "room": "130"
+                        }
+                    ],
+                    "instructor": "SCHMIDT,BENJAMIN           O"
+                }
+            ]
         },
         {
             "num": "370",
@@ -15348,7 +15981,7 @@
                             "room": "123"
                         }
                     ],
-                    "instructor": "STACEY,ROBIN C             O"
+                    "instructor": "STACEY,ROBIN C             C"
                 }
             ]
         },
@@ -15497,7 +16130,22 @@
         {
             "num": "432",
             "title": "HIST WASH & PAC N W ",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "15040",
+                    "section": "B",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "TTh",
+                            "time": "1230-220",
+                            "building": "PCAR",
+                            "room": "123"
+                        }
+                    ],
+                    "instructor": "FINDLAY,JOHN M             O"
+                }
+            ]
         },
         {
             "num": "490",
@@ -15688,7 +16336,7 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "URBANSKI,CHARITY L.                  "
+                    "instructor": "URBANSKI,CHARITY L.                 "
                 }
             ]
         },
@@ -15945,6 +16593,20 @@
                         }
                     ],
                     "instructor": "CARLSON-RAINER,ELISE A     O"
+                },
+                {
+                    "SLN": "21552",
+                    "section": "I",
+                    "credit": "2",
+                    "meeting": [
+                        {
+                            "day": "W",
+                            "time": "430-620P",
+                            "building": "THO",
+                            "room": "430"
+                        }
+                    ],
+                    "instructor": "KASABA,RESAT               O"
                 }
             ]
         },
@@ -16077,7 +16739,7 @@
                             "room": "230"
                         }
                     ],
-                    "instructor": "HILBORN,RAY                          "
+                    "instructor": "HILBORN,RAY                O"
                 },
                 {
                     "SLN": "15643",
@@ -16112,22 +16774,7 @@
         {
             "num": "489",
             "title": "SPEC TOPICS REECA",
-            "sections": [
-                {
-                    "SLN": "15645",
-                    "section": "A",
-                    "credit": "5",
-                    "meeting": [
-                        {
-                            "day": "TTh",
-                            "time": "330-520",
-                            "building": "THO",
-                            "room": "330"
-                        }
-                    ],
-                    "instructor": "MURG,BRADLEY               O"
-                }
-            ]
+            "sections": []
         },
         {
             "num": "493",
@@ -16155,7 +16802,7 @@
                             "room": "230"
                         }
                     ],
-                    "instructor": "PIANKO,NOAM                O"
+                    "instructor": "PIANKO,NOAM                         "
                 },
                 {
                     "SLN": "15651",
@@ -16169,7 +16816,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "ROBINSON,CABEIRI DEBERGH   O"
+                    "instructor": "ROBINSON,CABEIRI DEBERGH            "
                 },
                 {
                     "SLN": "15652",
@@ -16211,7 +16858,7 @@
                             "room": "230"
                         }
                     ],
-                    "instructor": "CHIROT,DANIEL              O"
+                    "instructor": "CHIROT,DANIEL              C"
                 }
             ]
         },
@@ -16325,29 +16972,15 @@
             "title": "SPEC TOPICS REECA",
             "sections": [
                 {
-                    "SLN": "15667",
-                    "section": "A",
-                    "credit": "5",
-                    "meeting": [
-                        {
-                            "day": "TTh",
-                            "time": "330-520",
-                            "building": "THO",
-                            "room": "330"
-                        }
-                    ],
-                    "instructor": "MURG,BRADLEY               O"
-                },
-                {
                     "SLN": "15668",
                     "section": "B",
                     "credit": "2",
                     "meeting": [
                         {
                             "day": "T",
-                            "time": "330-520",
+                            "time": "430-620P",
                             "building": "THO",
-                            "room": "330"
+                            "room": "430"
                         }
                     ],
                     "instructor": "LYON,PHILIP W.             O"
@@ -16381,7 +17014,7 @@
                 {
                     "SLN": "15671",
                     "section": "A",
-                    "credit": "2",
+                    "credit": "5",
                     "meeting": [
                         {
                             "day": "MW",
@@ -16390,7 +17023,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "BEGUN,JEFFREY C                      "
+                    "instructor": "BEGUN,JEFFREY C            O"
                 }
             ]
         },
@@ -16581,7 +17214,7 @@
                             "room": "113"
                         }
                     ],
-                    "instructor": "LOKEN,MEREDITH             O"
+                    "instructor": "LOKEN,MEREDITH             C"
                 }
             ]
         },
@@ -16670,7 +17303,7 @@
                             "room": "113"
                         }
                     ],
-                    "instructor": "WINTER,KRISTI G            O"
+                    "instructor": "WINTER,KRISTI G            C"
                 },
                 {
                     "SLN": "10570",
@@ -17208,6 +17841,11 @@
             ]
         },
         {
+            "num": "567",
+            "title": "KNOWL ENGR FOR NLP",
+            "sections": []
+        },
+        {
             "num": "575",
             "title": "COMPUT LING TOPICS",
             "sections": [
@@ -17224,6 +17862,20 @@
                         }
                     ],
                     "instructor": "LEVOW,GINA-ANNE            O"
+                },
+                {
+                    "SLN": "21537",
+                    "section": "F",
+                    "credit": "3",
+                    "meeting": [
+                        {
+                            "day": "M",
+                            "time": "330-550",
+                            "building": "SAV",
+                            "room": "330"
+                        }
+                    ],
+                    "instructor": "KAHN,JEREMY GILLMOR        O"
                 }
             ]
         },
@@ -17314,34 +17966,6 @@
                         }
                     ],
                     "instructor": "ZAGONA,KAREN T             O"
-                },
-                {
-                    "SLN": "16287",
-                    "section": "G",
-                    "credit": "4",
-                    "meeting": [
-                        {
-                            "day": "Th",
-                            "time": "330-550",
-                            "building": "PAR",
-                            "room": "330"
-                        }
-                    ],
-                    "instructor": "HARGUS,SHARON                        "
-                },
-                {
-                    "SLN": "16288",
-                    "section": "H",
-                    "credit": "2",
-                    "meeting": [
-                        {
-                            "day": "Th",
-                            "time": "330-550",
-                            "building": "PAR",
-                            "room": "330"
-                        }
-                    ],
-                    "instructor": "HARGUS,SHARON                        "
                 },
                 {
                     "SLN": "16289",
@@ -17447,9 +18071,9 @@
                     "meeting": [
                         {
                             "day": "MTWThF",
-                            "time": "1030-1120",
+                            "time": "1130-1220",
                             "building": "MTWT",
-                            "room": "103"
+                            "room": "113"
                         }
                     ],
                     "instructor": "SKOV,CHRISTOPHER           O"
@@ -17567,7 +18191,7 @@
                             "room": "230"
                         }
                     ],
-                    "instructor": "MARZBAN,CAREN              O"
+                    "instructor": "MARZBAN,CAREN              C"
                 }
             ]
         },
@@ -17597,7 +18221,7 @@
                             "room": "930"
                         }
                     ],
-                    "instructor": "PERLMAN,MICHAEL D          O"
+                    "instructor": "PERLMAN,MICHAEL D          C"
                 }
             ]
         },
@@ -17807,9 +18431,9 @@
                     "meeting": [
                         {
                             "day": "MWF",
-                            "time": "1230-120",
+                            "time": "1130-1220",
                             "building": "MWF",
-                            "room": "123"
+                            "room": "113"
                         }
                     ],
                     "instructor": "BUBE,KENNETH P.            O"
@@ -18064,7 +18688,22 @@
         {
             "num": "590",
             "title": "SMNR PROBABILITY",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "16694",
+                    "section": "A",
+                    "credit": "2-5",
+                    "meeting": [
+                        {
+                            "day": "M",
+                            "time": "230-350",
+                            "building": "THO",
+                            "room": "230"
+                        }
+                    ],
+                    "instructor": "CHEN,ZHEN-QING             O"
+                }
+            ]
         },
         {
             "num": "597",
@@ -18673,7 +19312,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "SUNARDI,CHRISTINA          O"
+                    "instructor": "SUNARDI,CHRISTINA          C"
                 }
             ]
         },
@@ -18918,7 +19557,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "SUNARDI,CHRISTINA          O"
+                    "instructor": "SUNARDI,CHRISTINA          C"
                 }
             ]
         },
@@ -18937,7 +19576,13 @@
                     "credit": "2",
                     "meeting": [
                         {
-                            "day": "TTh",
+                            "day": "T",
+                            "time": "330-420",
+                            "building": "MUS",
+                            "room": "330"
+                        },
+                        {
+                            "day": "Th",
                             "time": "330-420",
                             "building": "MUS",
                             "room": "330"
@@ -19089,7 +19734,7 @@
                             "room": "113"
                         }
                     ],
-                    "instructor": "PARTINGTON,MICHAEL                   "
+                    "instructor": "PARTINGTON,MICHAEL         O"
                 }
             ]
         },
@@ -19272,7 +19917,7 @@
                             "room": "530"
                         }
                     ],
-                    "instructor": "DUDLEY,SHANNON K.          O"
+                    "instructor": "DUDLEY,SHANNON K.          C"
                 }
             ]
         },
@@ -21228,7 +21873,22 @@
         {
             "num": "101",
             "title": "CLASSICAL ETHIOPIC",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "14601",
+                    "section": "A",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "TTh",
+                            "time": "130-320",
+                            "building": "GLD",
+                            "room": "130"
+                        }
+                    ],
+                    "instructor": "MAHMOOD,HAMZA              C"
+                }
+            ]
         }
     ],
     "BIBHEB": [
@@ -21769,7 +22429,7 @@
                             "room": "930"
                         }
                     ],
-                    "instructor": "STELLA,NEPHI               O"
+                    "instructor": "STELLA,NEPHI               C"
                 }
             ]
         },
@@ -21928,7 +22588,22 @@
         {
             "num": "291",
             "title": "ETHICS IN SCIENCE",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "21508",
+                    "section": "A",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "TTh",
+                            "time": "130-250",
+                            "building": "SMI",
+                            "room": "130"
+                        }
+                    ],
+                    "instructor": "WYLIE,MARGARET ALISON      O"
+                }
+            ]
         },
         {
             "num": "301",
@@ -22666,7 +23341,7 @@
                             "room": "113"
                         }
                     ],
-                    "instructor": "GOUSSIOU,ANNA              O"
+                    "instructor": "GOUSSIOU,ANNA              C"
                 },
                 {
                     "SLN": "18355",
@@ -22680,7 +23355,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "GOUSSIOU,ANNA              O"
+                    "instructor": "GOUSSIOU,ANNA              C"
                 },
                 {
                     "SLN": "18356",
@@ -22694,7 +23369,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "GOUSSIOU,ANNA              O"
+                    "instructor": "GOUSSIOU,ANNA              C"
                 },
                 {
                     "SLN": "18357",
@@ -22736,7 +23411,7 @@
                             "room": "113"
                         }
                     ],
-                    "instructor": "GOUSSIOU,ANNA              O"
+                    "instructor": "GOUSSIOU,ANNA              C"
                 },
                 {
                     "SLN": "18362",
@@ -23179,7 +23854,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "PENGRA,DAVID B.            O"
+                    "instructor": "PENGRA,DAVID B.            C"
                 },
                 {
                     "SLN": "18541",
@@ -23193,7 +23868,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "PENGRA,DAVID B.            O"
+                    "instructor": "PENGRA,DAVID B.            C"
                 }
             ]
         },
@@ -23489,7 +24164,22 @@
         {
             "num": "580",
             "title": "PHYSICS COLLOQUIUM",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "18562",
+                    "section": "A",
+                    "credit": "1",
+                    "meeting": [
+                        {
+                            "day": "M",
+                            "time": "330-520",
+                            "building": "PAA",
+                            "room": "330"
+                        }
+                    ],
+                    "instructor": "COBDEN,DAVID               O"
+                }
+            ]
         },
         {
             "num": "581",
@@ -23612,7 +24302,7 @@
                             "room": "830"
                         }
                     ],
-                    "instructor": "VOORHIES,ANN C             O"
+                    "instructor": "CULLIGAN,ANN E.            O"
                 }
             ]
         },
@@ -23778,7 +24468,7 @@
                             "room": "930"
                         }
                     ],
-                    "instructor": "BRENOWITZ,ELIOT A.         O"
+                    "instructor": "BRENOWITZ,ELIOT A.         C"
                 }
             ]
         },
@@ -23832,7 +24522,7 @@
                             "room": "123"
                         }
                     ],
-                    "instructor": "ANDELIN,ADRIAN K           O"
+                    "instructor": "ANDELIN,ADRIAN K           C"
                 }
             ]
         },
@@ -23852,7 +24542,7 @@
                             "room": "123"
                         }
                     ],
-                    "instructor": "ZOU,LINDA X                O"
+                    "instructor": "ZOU,LINDA X                C"
                 }
             ]
         },
@@ -23897,7 +24587,7 @@
                             "room": "930"
                         }
                     ],
-                    "instructor": "PICKRELL,JACQUELINE        O"
+                    "instructor": "PICKRELL,JACQUELINE        C"
                 }
             ]
         },
@@ -23937,7 +24627,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "MELTZOFF,ANDREW N          O"
+                    "instructor": "MELTZOFF,ANDREW N          C"
                 }
             ]
         },
@@ -23982,7 +24672,7 @@
                             "room": "330"
                         }
                     ],
-                    "instructor": "LITTLE,LAURA M.                      "
+                    "instructor": "LITTLE,LAURA M.                     "
                 },
                 {
                     "SLN": "18820",
@@ -24041,7 +24731,7 @@
                             "room": "123"
                         }
                     ],
-                    "instructor": "CHUN,DEBORAH Y             O"
+                    "instructor": "CHUN,DEBORAH Y             C"
                 }
             ]
         },
@@ -24061,7 +24751,7 @@
                             "room": "123"
                         }
                     ],
-                    "instructor": "COVEY,ELLEN                O"
+                    "instructor": "COVEY,ELLEN                C"
                 }
             ]
         },
@@ -24259,7 +24949,7 @@
                             "room": "113"
                         }
                     ],
-                    "instructor": "VOORHIES,ANN C             O"
+                    "instructor": "CULLIGAN,ANN E.            O"
                 }
             ]
         },
@@ -24418,7 +25108,7 @@
                             "room": "113"
                         }
                     ],
-                    "instructor": "MIZUMORI,SHERI J                     "
+                    "instructor": "MIZUMORI,SHERI J           O"
                 },
                 {
                     "SLN": "18853",
@@ -24624,6 +25314,11 @@
             ]
         },
         {
+            "num": "588",
+            "title": "CLIN METHODS ETHICS ",
+            "sections": []
+        },
+        {
             "num": "589",
             "title": "CLINICAL SUPERVISION",
             "sections": []
@@ -24642,6 +25337,20 @@
             "num": "594",
             "title": "ADV CLIN PRACTICUM",
             "sections": [
+                {
+                    "SLN": "18884",
+                    "section": "A",
+                    "credit": "2",
+                    "meeting": [
+                        {
+                            "day": "Th",
+                            "time": "230-420",
+                            "building": "GTH",
+                            "room": "230"
+                        }
+                    ],
+                    "instructor": "KOHLENBERG,ROBERT J.       O"
+                },
                 {
                     "SLN": "18885",
                     "section": "B",
@@ -24780,7 +25489,7 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "IVASKA,I                   O"
+                    "instructor": "IVASKA,ILMARI T.           O"
                 }
             ]
         },
@@ -24970,7 +25679,22 @@
         {
             "num": "156",
             "title": "SWED LIT&CLTRL HIST ",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "19133",
+                    "section": "A",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "TTh",
+                            "time": "130-320",
+                            "building": "CDH",
+                            "room": "130"
+                        }
+                    ],
+                    "instructor": "DUBOIS,IA G                O"
+                }
+            ]
         },
         {
             "num": "280",
@@ -25118,6 +25842,11 @@
             ]
         },
         {
+            "num": "490",
+            "title": "SPECIAL TOPICS",
+            "sections": []
+        },
+        {
             "num": "498",
             "title": "SENIOR ESSAY",
             "sections": []
@@ -25197,7 +25926,28 @@
         {
             "num": "103",
             "title": "ELEMENTARY SWEDISH",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "19762",
+                    "section": "A",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "MTThF",
+                            "time": "930-1020",
+                            "building": "MTT",
+                            "room": "930"
+                        },
+                        {
+                            "day": "W",
+                            "time": "930-1020",
+                            "building": "MGH",
+                            "room": "930"
+                        }
+                    ],
+                    "instructor": "JACKSON,SARAH ALYSE ANDER  O"
+                }
+            ]
         },
         {
             "num": "203",
@@ -25739,7 +26489,7 @@
                             "room": "930"
                         }
                     ],
-                    "instructor": "WILLIAMS,NATHALIE E        O"
+                    "instructor": "WILLIAMS,NATHALIE E        C"
                 }
             ]
         },
@@ -25762,6 +26512,11 @@
                     "instructor": "BURT,CALLIE                O"
                 }
             ]
+        },
+        {
+            "num": "275",
+            "title": "MURDER",
+            "sections": []
         },
         {
             "num": "300",
@@ -25878,7 +26633,7 @@
                             "room": "113"
                         }
                     ],
-                    "instructor": "BRINES,JULIE E.            O"
+                    "instructor": "BRINES,JULIE E.            C"
                 },
                 {
                     "SLN": "19267",
@@ -25892,7 +26647,7 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "KISER,EDGAR VANCE          O"
+                    "instructor": "KISER,EDGAR VANCE          C"
                 }
             ]
         },
@@ -25992,7 +26747,7 @@
                             "room": "113"
                         }
                     ],
-                    "instructor": "PINEDO-TURNOVSKY,CAROLYN   O"
+                    "instructor": "PINEDO-TURNOVSKY,CAROLYN   C"
                 }
             ]
         },
@@ -26390,7 +27145,7 @@
                             "room": "123"
                         }
                     ],
-                    "instructor": "MEDIAVILLA,MARIA           O"
+                    "instructor": "MEDIAVILLA,MARIA           C"
                 }
             ]
         },
@@ -26427,7 +27182,22 @@
         {
             "num": "323",
             "title": "INTRO SPAN LINGUIST ",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "19433",
+                    "section": "A",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "MW",
+                            "time": "1230-220",
+                            "building": "LOW",
+                            "room": "123"
+                        }
+                    ],
+                    "instructor": "BLUM,AVRAM S               O"
+                }
+            ]
         },
         {
             "num": "390",
@@ -26559,7 +27329,64 @@
         {
             "num": "111",
             "title": "AMER ENGLISH SOUNDS ",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "19478",
+                    "section": "A",
+                    "credit": "2",
+                    "meeting": [
+                        {
+                            "day": "M",
+                            "time": "330-420",
+                            "building": "EGL",
+                            "room": "330"
+                        }
+                    ],
+                    "instructor": "COOPER,EMMA A              O"
+                },
+                {
+                    "SLN": "19479",
+                    "section": "AA",
+                    "credit": "QZ",
+                    "meeting": [
+                        {
+                            "day": "M",
+                            "time": "430-520P",
+                            "building": "SWS",
+                            "room": "430"
+                        }
+                    ],
+                    "instructor": "COOPER,EMMA A              O"
+                },
+                {
+                    "SLN": "19480",
+                    "section": "AB",
+                    "credit": "QZ",
+                    "meeting": [
+                        {
+                            "day": "W",
+                            "time": "330-420",
+                            "building": "DEM",
+                            "room": "330"
+                        }
+                    ],
+                    "instructor": "COOPER,EMMA A              O"
+                },
+                {
+                    "SLN": "19481",
+                    "section": "AC",
+                    "credit": "QZ",
+                    "meeting": [
+                        {
+                            "day": "W",
+                            "time": "430-520P",
+                            "building": "DEM",
+                            "room": "430"
+                        }
+                    ],
+                    "instructor": "COOPER,EMMA A              O"
+                }
+            ]
         },
         {
             "num": "304",
@@ -26687,7 +27514,7 @@
                     "credit": "3",
                     "meeting": [
                         {
-                            "day": "WF",
+                            "day": "MW",
                             "time": "1030-1150",
                             "building": "EGL",
                             "room": "103"
@@ -26844,9 +27671,9 @@
                     "meeting": [
                         {
                             "day": "TTh",
-                            "time": "130-250",
-                            "building": "SWS",
-                            "room": "130"
+                            "time": "1130-1250",
+                            "building": "EGL",
+                            "room": "113"
                         }
                     ],
                     "instructor": "YEATMAN,JASON              O"
@@ -26895,12 +27722,12 @@
                     "meeting": [
                         {
                             "day": "Th",
-                            "time": "1000-1150",
+                            "time": "1030-1220",
                             "building": "EGL",
-                            "room": "100"
+                            "room": "103"
                         }
                     ],
-                    "instructor": "TREMBLAY,KELLY L           O"
+                    "instructor": "TREMBLAY,KELLY L           C"
                 }
             ]
         },
@@ -26920,7 +27747,7 @@
                             "room": "830"
                         }
                     ],
-                    "instructor": "QUINN,MICHELLE             O"
+                    "instructor": "QUINN,MICHELLE             C"
                 }
             ]
         },
@@ -27008,7 +27835,7 @@
                             "room": "900"
                         }
                     ],
-                    "instructor": "MANCL,LISA K.              O"
+                    "instructor": "MANCL,LISA K.              C"
                 },
                 {
                     "SLN": "19607",
@@ -27056,7 +27883,7 @@
                             "room": "230"
                         }
                     ],
-                    "instructor": "LITTMAN,THOMAS A           O"
+                    "instructor": "LITTMAN,THOMAS A           C"
                 }
             ]
         },
@@ -27123,7 +27950,7 @@
                             "room": "930"
                         }
                     ],
-                    "instructor": "WILLIAMS,NATHALIE E        O"
+                    "instructor": "WILLIAMS,NATHALIE E        C"
                 }
             ]
         },
@@ -27209,7 +28036,7 @@
                             "room": "230"
                         }
                     ],
-                    "instructor": "MARZBAN,CAREN              O"
+                    "instructor": "MARZBAN,CAREN              C"
                 }
             ]
         },
@@ -27259,7 +28086,7 @@
                             "room": "930"
                         }
                     ],
-                    "instructor": "PERLMAN,MICHAEL D          O"
+                    "instructor": "PERLMAN,MICHAEL D          C"
                 }
             ]
         },
@@ -27285,7 +28112,7 @@
                             "room": "930"
                         }
                     ],
-                    "instructor": "CHEN,YEN-CHI               O"
+                    "instructor": "CHEN,YEN-CHI               C"
                 }
             ]
         },
@@ -27481,7 +28308,7 @@
                             "room": "120"
                         }
                     ],
-                    "instructor": "DOBRA,ADRIAN               O"
+                    "instructor": "DOBRA,ADRIAN               C"
                 }
             ]
         },
@@ -28046,7 +28873,7 @@
                             "room": "120"
                         }
                     ],
-                    "instructor": "MCLAREN,BRIAN              O"
+                    "instructor": "MCLAREN,BRIAN              C"
                 }
             ]
         },
@@ -28084,20 +28911,6 @@
             "num": "498",
             "title": "SPECIAL PROJECTS",
             "sections": [
-                {
-                    "SLN": "10413",
-                    "section": "A",
-                    "credit": "3",
-                    "meeting": [
-                        {
-                            "day": "T",
-                            "time": "600-850P",
-                            "building": "GLD",
-                            "room": "600"
-                        }
-                    ],
-                    "instructor": "SPRAGUE,TYLER S            O"
-                },
                 {
                     "SLN": "10416",
                     "section": "F",
@@ -28145,7 +28958,7 @@
                             "room": "900"
                         }
                     ],
-                    "instructor": "CONGDON,ROARK T            O"
+                    "instructor": "CONGDON,ROARK T            C"
                 }
             ]
         },
@@ -28165,7 +28978,7 @@
                             "room": "900"
                         }
                     ],
-                    "instructor": "CORSER,ROBERT J                      "
+                    "instructor": "CORSER,ROBERT J                     "
                 }
             ]
         },
@@ -28344,20 +29157,6 @@
             "title": "SPECIAL TOPICS",
             "sections": [
                 {
-                    "SLN": "10442",
-                    "section": "A",
-                    "credit": "3",
-                    "meeting": [
-                        {
-                            "day": "T",
-                            "time": "600-850P",
-                            "building": "GLD",
-                            "room": "600"
-                        }
-                    ],
-                    "instructor": "SPRAGUE,TYLER S            O"
-                },
-                {
                     "SLN": "10443",
                     "section": "B",
                     "credit": "3",
@@ -28383,7 +29182,7 @@
                             "room": "600"
                         }
                     ],
-                    "instructor": "BURPEE,HEATHER             O"
+                    "instructor": "BURPEE,HEATHER             C"
                 },
                 {
                     "SLN": "21271",
@@ -28463,7 +29262,7 @@
                             "room": "830"
                         }
                     ],
-                    "instructor": "BJORK,LARRY D              O"
+                    "instructor": "BJORK,LARRY D              C"
                 },
                 {
                     "SLN": "12276",
@@ -28630,7 +29429,7 @@
                             "room": "330"
                         }
                     ],
-                    "instructor": "BENDER,WILLIAM J           O"
+                    "instructor": "BENDER,WILLIAM J           C"
                 },
                 {
                     "SLN": "12294",
@@ -28805,6 +29604,11 @@
             ]
         },
         {
+            "num": "446",
+            "title": "INTERNSHIP",
+            "sections": []
+        },
+        {
             "num": "462",
             "title": "COMMNTY & ENVIRMNT",
             "sections": [
@@ -28908,6 +29712,34 @@
                         }
                     ],
                     "instructor": "PURCELL,MARK H.            O"
+                },
+                {
+                    "SLN": "20625",
+                    "section": "AC",
+                    "credit": "QZ",
+                    "meeting": [
+                        {
+                            "day": "Th",
+                            "time": "1030-1120",
+                            "building": "GLD",
+                            "room": "103"
+                        }
+                    ],
+                    "instructor": "RISHI,SUSMITA              O"
+                },
+                {
+                    "SLN": "20627",
+                    "section": "AE",
+                    "credit": "QZ",
+                    "meeting": [
+                        {
+                            "day": "Th",
+                            "time": "1130-1220",
+                            "building": "GLD",
+                            "room": "113"
+                        }
+                    ],
+                    "instructor": "RISHI,SUSMITA              O"
                 }
             ]
         },
@@ -28991,16 +29823,10 @@
                     "credit": "5",
                     "meeting": [
                         {
-                            "day": "TTh",
-                            "time": "1130-220",
+                            "day": "TW",
+                            "time": "130-520",
                             "building": "GLD",
-                            "room": "113"
-                        },
-                        {
-                            "day": "F",
-                            "time": "1000-1250",
-                            "building": "GLD",
-                            "room": "100"
+                            "room": "130"
                         }
                     ],
                     "instructor": "BORN,BRANDEN M             O"
@@ -29063,7 +29889,7 @@
                         {
                             "day": "Th",
                             "time": "500-650P",
-                            "building": "ARC",
+                            "building": "GLD",
                             "room": "500"
                         }
                     ],
@@ -29688,7 +30514,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "CURTIS,ASHER B             O"
+                    "instructor": "CURTIS,ASHER B             C"
                 },
                 {
                     "SLN": "10155",
@@ -30156,7 +30982,7 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "LEGG,DIANE                 O"
+                    "instructor": "LEGG,DIANE                 C"
                 },
                 {
                     "SLN": "14041",
@@ -30170,7 +30996,7 @@
                             "room": "330"
                         }
                     ],
-                    "instructor": "LEGG,DIANE                 O"
+                    "instructor": "LEGG,DIANE                 C"
                 }
             ]
         },
@@ -30229,7 +31055,7 @@
                             "room": "600"
                         }
                     ],
-                    "instructor": "COLKER,JACOB THOMAS                  "
+                    "instructor": "COLKER,JACOB THOMAS                 "
                 },
                 {
                     "SLN": "14046",
@@ -30426,7 +31252,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "SESLEN,TRACEY              O"
+                    "instructor": "SESLEN,TRACEY              C"
                 }
             ]
         },
@@ -30480,7 +31306,7 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "LEGG,DIANE                 O"
+                    "instructor": "LEGG,DIANE                 C"
                 },
                 {
                     "SLN": "14404",
@@ -30494,7 +31320,7 @@
                             "room": "330"
                         }
                     ],
-                    "instructor": "LEGG,DIANE                 O"
+                    "instructor": "LEGG,DIANE                 C"
                 }
             ]
         },
@@ -30514,7 +31340,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "KAMARA,AVRAHAM             O"
+                    "instructor": "KAMARA,AVRAHAM             C"
                 },
                 {
                     "SLN": "14406",
@@ -30528,7 +31354,7 @@
                             "room": "330"
                         }
                     ],
-                    "instructor": "KAMARA,AVRAHAM             O"
+                    "instructor": "KAMARA,AVRAHAM             C"
                 }
             ]
         },
@@ -30548,7 +31374,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "MARIN,MONICA               O"
+                    "instructor": "MARIN,MONICA               C"
                 }
             ]
         },
@@ -30702,7 +31528,7 @@
                             "room": "600"
                         }
                     ],
-                    "instructor": "HRDLICKA,CHRISTOPHER M               "
+                    "instructor": "HRDLICKA,CHRISTOPHER M              "
                 },
                 {
                     "SLN": "14419",
@@ -31077,7 +31903,7 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "BEARD,NATHAN JOHN          O"
+                    "instructor": "BEARD,NATHAN JOHN          C"
                 }
             ]
         },
@@ -31157,7 +31983,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "GUPTA,ABHINAV              C"
+                    "instructor": "GUPTA,ABHINAV                       "
                 },
                 {
                     "SLN": "16940",
@@ -31185,7 +32011,7 @@
                             "room": "830"
                         }
                     ],
-                    "instructor": "SIRMON,DAVID G.            O"
+                    "instructor": "SIRMON,DAVID G.            C"
                 },
                 {
                     "SLN": "16944",
@@ -31213,7 +32039,7 @@
                             "room": "830"
                         }
                     ],
-                    "instructor": "MCPHERSON,RICHARD S.       O"
+                    "instructor": "MCPHERSON,RICHARD S.       C"
                 },
                 {
                     "SLN": "16948",
@@ -31241,7 +32067,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "MCPHERSON,RICHARD S.       O"
+                    "instructor": "MCPHERSON,RICHARD S.       C"
                 }
             ]
         },
@@ -31326,6 +32152,20 @@
                         }
                     ],
                     "instructor": "STEENSMA,HARVEY K.                   "
+                },
+                {
+                    "SLN": "21130",
+                    "section": "D",
+                    "credit": "2",
+                    "meeting": [
+                        {
+                            "day": "Th",
+                            "time": "600-920",
+                            "building": "PCAR",
+                            "room": "600"
+                        }
+                    ],
+                    "instructor": "HILL,CHARLES WILLIAM L               "
                 }
             ]
         },
@@ -31345,7 +32185,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "ZHANG,CRYSTAL FARH                   "
+                    "instructor": "ZHANG,CRYSTAL FARH                  "
                 },
                 {
                     "SLN": "16961",
@@ -31393,7 +32233,7 @@
                             "room": "330"
                         }
                     ],
-                    "instructor": "FONG,CHRISTINA T.                    "
+                    "instructor": "FONG,CHRISTINA T.                   "
                 },
                 {
                     "SLN": "16964",
@@ -31421,7 +32261,7 @@
                             "room": "600"
                         }
                     ],
-                    "instructor": "FONG,CHRISTINA T.                    "
+                    "instructor": "FONG,CHRISTINA T.                   "
                 },
                 {
                     "SLN": "16966",
@@ -31492,6 +32332,34 @@
                     "instructor": "BOEKER,WARREN                        "
                 },
                 {
+                    "SLN": "21154",
+                    "section": "C",
+                    "credit": "2",
+                    "meeting": [
+                        {
+                            "day": "Th",
+                            "time": "600-920P",
+                            "building": "PCAR",
+                            "room": "600"
+                        }
+                    ],
+                    "instructor": "SHOBERT,BENJAMIN                     "
+                },
+                {
+                    "SLN": "21155",
+                    "section": "D",
+                    "credit": "2",
+                    "meeting": [
+                        {
+                            "day": "Th",
+                            "time": "600-920P",
+                            "building": "PCAR",
+                            "room": "600"
+                        }
+                    ],
+                    "instructor": "SHOBERT,BENJAMIN                     "
+                },
+                {
                     "SLN": "16971",
                     "section": "G",
                     "credit": "4",
@@ -31557,7 +32425,22 @@
         {
             "num": "301",
             "title": "MARKETING CONCEPTS",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "17011",
+                    "section": "D",
+                    "credit": "4",
+                    "meeting": [
+                        {
+                            "day": "TTh",
+                            "time": "830-1020",
+                            "building": "DEM",
+                            "room": "830"
+                        }
+                    ],
+                    "instructor": "MATTHEWS,MARTHA N.         O"
+                }
+            ]
         },
         {
             "num": "335",
@@ -31729,7 +32612,7 @@
                             "room": "330"
                         }
                     ],
-                    "instructor": "KOKTA,THOMAS L             O"
+                    "instructor": "KOKTA,THOMAS L             C"
                 }
             ]
         },
@@ -31931,7 +32814,7 @@
                             "room": "600"
                         }
                     ],
-                    "instructor": "RUTZ,OLIVER                          "
+                    "instructor": "RUTZ,OLIVER                         "
                 },
                 {
                     "SLN": "17036",
@@ -32275,7 +33158,7 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "SIRICHAKWAL,ISSARIYA       O"
+                    "instructor": "SIRICHAKWAL,ISSARIYA       C"
                 },
                 {
                     "SLN": "17848",
@@ -32333,7 +33216,7 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "KLASTORIN,THEODORE                   "
+                    "instructor": "KLASTORIN,THEODORE                  "
                 },
                 {
                     "SLN": "17854",
@@ -32395,7 +33278,7 @@
                             "room": "600"
                         }
                     ],
-                    "instructor": "SHUNKO,MARIA                         "
+                    "instructor": "SHUNKO,MARIA                        "
                 },
                 {
                     "SLN": "17858",
@@ -33035,7 +33918,7 @@
                             "room": "330"
                         }
                     ],
-                    "instructor": "COLDWELL,SUSAN E.                    "
+                    "instructor": "COLDWELL,SUSAN E.                   "
                 }
             ]
         },
@@ -33511,7 +34394,7 @@
                             "room": "113"
                         }
                     ],
-                    "instructor": "CHEN,JONDOU                O"
+                    "instructor": "CHEN,JONDOU                C"
                 },
                 {
                     "SLN": "13652",
@@ -33665,7 +34548,22 @@
         {
             "num": "315",
             "title": "ISSUES TRENDS EDUC",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "13661",
+                    "section": "A",
+                    "credit": "3",
+                    "meeting": [
+                        {
+                            "day": "T",
+                            "time": "330-550",
+                            "building": "SMI",
+                            "room": "330"
+                        }
+                    ],
+                    "instructor": "KERDEMAN,DEBORAH           O"
+                }
+            ]
         },
         {
             "num": "360",
@@ -33750,6 +34648,20 @@
                 {
                     "SLN": "13673",
                     "section": "L",
+                    "credit": "1",
+                    "meeting": [
+                        {
+                            "day": "M",
+                            "time": "430-520P",
+                            "building": "MGH",
+                            "room": "430"
+                        }
+                    ],
+                    "instructor": "GUENTHER,NICOLE P          O"
+                },
+                {
+                    "SLN": "13674",
+                    "section": "M",
                     "credit": "1",
                     "meeting": [
                         {
@@ -33960,9 +34872,9 @@
                     "meeting": [
                         {
                             "day": "Th",
-                            "time": "330-420",
-                            "building": "ART",
-                            "room": "330"
+                            "time": "1030-1150",
+                            "building": "SWS",
+                            "room": "103"
                         }
                     ],
                     "instructor": "STICKLER,CHRISTINE                   "
@@ -34101,7 +35013,36 @@
         {
             "num": "303",
             "title": "SRVC LRNG & RES I",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "21133",
+                    "section": "A",
+                    "credit": "3",
+                    "meeting": [
+                        {
+                            "day": "M",
+                            "time": "1130-1250",
+                            "building": "MLR",
+                            "room": "113"
+                        }
+                    ],
+                    "instructor": "CLEVENGER-BRIGHT,MARY      O"
+                },
+                {
+                    "SLN": "21134",
+                    "section": "B",
+                    "credit": "3",
+                    "meeting": [
+                        {
+                            "day": "M",
+                            "time": "1130-1250",
+                            "building": "MLR",
+                            "room": "113"
+                        }
+                    ],
+                    "instructor": "CLEVENGER-BRIGHT,MARY      O"
+                }
+            ]
         },
         {
             "num": "304",
@@ -34189,7 +35130,7 @@
                             "room": "830"
                         }
                     ],
-                    "instructor": "CLEVENGER-BRIGHT,MARY      O"
+                    "instructor": "CLEVENGER-BRIGHT,MARY      C"
                 }
             ]
         },
@@ -34597,13 +35538,42 @@
                         }
                     ],
                     "instructor": "ISHIMARU,ANN                         "
+                },
+                {
+                    "SLN": "21588",
+                    "section": "H",
+                    "credit": "3",
+                    "meeting": [
+                        {
+                            "day": "M",
+                            "time": "430-650P",
+                            "building": "MLR",
+                            "room": "430"
+                        }
+                    ],
+                    "instructor": "MCGEE,SYLVIE               O"
                 }
             ]
         },
         {
             "num": "590",
             "title": "STUDENT POP & EXPER ",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "13533",
+                    "section": "A",
+                    "credit": "4",
+                    "meeting": [
+                        {
+                            "day": "T",
+                            "time": "430-650P",
+                            "building": "SMI",
+                            "room": "430"
+                        }
+                    ],
+                    "instructor": "LOTT,JOE                   O"
+                }
+            ]
         },
         {
             "num": "593",
@@ -34794,7 +35764,22 @@
         {
             "num": "516",
             "title": "SURV ED TECH RES",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "13559",
+                    "section": "A",
+                    "credit": "2",
+                    "meeting": [
+                        {
+                            "day": "M",
+                            "time": "1030-1220",
+                            "building": "MGH",
+                            "room": "103"
+                        }
+                    ],
+                    "instructor": "TAYLOR,KATHERINE           O"
+                }
+            ]
         },
         {
             "num": "530",
@@ -34907,7 +35892,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "SANDERS,ELIZABETH                    "
+                    "instructor": "SANDERS,ELIZABETH                   "
                 }
             ]
         },
@@ -35406,6 +36391,20 @@
                     "instructor": "CALVI,PAOLO                O"
                 },
                 {
+                    "SLN": "11754",
+                    "section": "AE",
+                    "credit": "QZ",
+                    "meeting": [
+                        {
+                            "day": "Th",
+                            "time": "830-1020",
+                            "building": "SIG",
+                            "room": "830"
+                        }
+                    ],
+                    "instructor": "CALVI,PAOLO                O"
+                },
+                {
                     "SLN": "11755",
                     "section": "AF",
                     "credit": "QZ",
@@ -35514,7 +36513,7 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "ASH,JOHN E                 O"
+                    "instructor": "ASH,JOHN E                 C"
                 },
                 {
                     "SLN": "11766",
@@ -35622,7 +36621,7 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "KRAMER,STEVEN              O"
+                    "instructor": "KRAMER,STEVEN                       "
                 },
                 {
                     "SLN": "11777",
@@ -35636,7 +36635,7 @@
                             "room": "123"
                         }
                     ],
-                    "instructor": "KRAMER,STEVEN              O"
+                    "instructor": "KRAMER,STEVEN                       "
                 },
                 {
                     "SLN": "11778",
@@ -35670,7 +36669,7 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "LEE,JAE HYUN               O"
+                    "instructor": "LEE,JAE HYUN               C"
                 }
             ]
         },
@@ -35696,12 +36695,12 @@
         },
         {
             "num": "421",
-            "title": "PAVMNT DSGN",
+            "title": "PAVEMENT DES&CONST",
             "sections": [
                 {
                     "SLN": "11781",
                     "section": "A",
-                    "credit": "3",
+                    "credit": "4",
                     "meeting": [
                         {
                             "day": "MW",
@@ -35993,13 +36992,13 @@
                         {
                             "day": "WF",
                             "time": "930-1020",
-                            "building": "CDH",
+                            "building": "SAV",
                             "room": "930"
                         },
                         {
                             "day": "F",
                             "time": "1030-220",
-                            "building": "MOR",
+                            "building": "MGH",
                             "room": "103"
                         }
                     ],
@@ -36017,7 +37016,7 @@
                             "room": "123"
                         }
                     ],
-                    "instructor": "MAHONEY,JOE PAUL                     "
+                    "instructor": "MAHONEY,JOE PAUL           O"
                 }
             ]
         },
@@ -36143,7 +37142,22 @@
         {
             "num": "547",
             "title": "LAKE/WATERSHED MGMT ",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "11824",
+                    "section": "A",
+                    "credit": "3",
+                    "meeting": [
+                        {
+                            "day": "MW",
+                            "time": "230-420",
+                            "building": "SMI",
+                            "room": "230"
+                        }
+                    ],
+                    "instructor": "BRETT,MICHAEL T.           O"
+                }
+            ]
         },
         {
             "num": "549",
@@ -36539,7 +37553,28 @@
         {
             "num": "190",
             "title": "CURRENT TOPICS CSE",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "12704",
+                    "section": "D",
+                    "credit": "3",
+                    "meeting": [
+                        {
+                            "day": "MW",
+                            "time": "1030-1120",
+                            "building": "OUG",
+                            "room": "103"
+                        },
+                        {
+                            "day": "F",
+                            "time": "1030-1120",
+                            "building": "OUG",
+                            "room": "103"
+                        }
+                    ],
+                    "instructor": "TANIMOTO,STEVEN L          O"
+                }
+            ]
         },
         {
             "num": "311",
@@ -36717,7 +37752,7 @@
                             "room": "230"
                         }
                     ],
-                    "instructor": "ANDERSON,RICHARD J.        O"
+                    "instructor": "MCCARTY,EVAN JAMES         O"
                 }
             ]
         },
@@ -36807,7 +37842,7 @@
                             "room": "230"
                         }
                     ],
-                    "instructor": "TANIMOTO,STEVEN L          O"
+                    "instructor": "TANIMOTO,STEVEN L          C"
                 }
             ]
         },
@@ -36827,7 +37862,7 @@
                             "room": "230"
                         }
                     ],
-                    "instructor": "RUZZO,WALTER L             O"
+                    "instructor": "RUZZO,WALTER L             C"
                 }
             ]
         },
@@ -36847,7 +37882,7 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "BEAME,PAUL W.              O"
+                    "instructor": "BEAME,PAUL W.              C"
                 }
             ]
         },
@@ -36901,7 +37936,7 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "HEER,JEFFREY M             O"
+                    "instructor": "HEER,JEFFREY M             C"
                 }
             ]
         },
@@ -36946,7 +37981,7 @@
                             "room": "113"
                         }
                     ],
-                    "instructor": "ANDERSON,THOMAS E.         O"
+                    "instructor": "ANDERSON,THOMAS E.         C"
                 }
             ]
         },
@@ -36966,7 +38001,7 @@
                             "room": "900"
                         }
                     ],
-                    "instructor": "CURLESS,BRIAN L.           O"
+                    "instructor": "CURLESS,BRIAN L.           C"
                 }
             ]
         },
@@ -37011,7 +38046,7 @@
                             "room": "110"
                         }
                     ],
-                    "instructor": "OSKIN,MARK H.              C"
+                    "instructor": "OSKIN,MARK H.              O"
                 }
             ]
         },
@@ -37031,7 +38066,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "BENDER,EMILY R. MENON      O"
+                    "instructor": "BENDER,EMILY R. MENON      C"
                 }
             ]
         },
@@ -37051,14 +38086,29 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "FOX,DIETER                 O"
+                    "instructor": "FOX,DIETER                 C"
                 }
             ]
         },
         {
             "num": "474",
             "title": "INTRO EMBEDDED SYS",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "12822",
+                    "section": "A",
+                    "credit": "4",
+                    "meeting": [
+                        {
+                            "day": "TTh",
+                            "time": "230-420",
+                            "building": "MOR",
+                            "room": "230"
+                        }
+                    ],
+                    "instructor": "ECKER,ALLAN C.             O"
+                }
+            ]
         },
         {
             "num": "475",
@@ -37096,7 +38146,7 @@
                             "room": "120"
                         }
                     ],
-                    "instructor": "CAKMAK,MAYA                         "
+                    "instructor": "CAKMAK,MAYA                C"
                 },
                 {
                     "SLN": "12825",
@@ -37110,7 +38160,21 @@
                             "room": "120"
                         }
                     ],
-                    "instructor": "POPOVIC,ZORAN                        "
+                    "instructor": "POPOVIC,ZORAN              C"
+                },
+                {
+                    "SLN": "12826",
+                    "section": "N",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "TTh",
+                            "time": "1200-120",
+                            "building": "LOW",
+                            "room": "120"
+                        }
+                    ],
+                    "instructor": "CHOI,YEJIN                 C"
                 }
             ]
         },
@@ -37249,10 +38313,10 @@
                     "credit": "4",
                     "meeting": [
                         {
-                            "day": "MW",
-                            "time": "930-1050",
-                            "building": "MGH",
-                            "room": "930"
+                            "day": "MF",
+                            "time": "1030-1150",
+                            "building": "CSE",
+                            "room": "103"
                         }
                     ],
                     "instructor": "KARLIN,ANNA R.             O"
@@ -37289,9 +38353,9 @@
                     "credit": "4",
                     "meeting": [
                         {
-                            "day": "MW",
+                            "day": "WF",
                             "time": "930-1050",
-                            "building": "EEB",
+                            "building": "MGH",
                             "room": "930"
                         }
                     ],
@@ -37315,7 +38379,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "SHAPIRO,LINDA G.           O"
+                    "instructor": "SHAPIRO,LINDA G.           C"
                 }
             ]
         },
@@ -37335,7 +38399,7 @@
                             "room": "113"
                         }
                     ],
-                    "instructor": "CAROTHERS,JAMES            O"
+                    "instructor": "KUEH,HAO YUAN              O"
                 }
             ]
         },
@@ -37466,7 +38530,22 @@
         {
             "num": "599",
             "title": "SPECIAL TOPICS",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "21586",
+                    "section": "C",
+                    "credit": "4",
+                    "meeting": [
+                        {
+                            "day": "MW",
+                            "time": "930-1050",
+                            "building": "MGH",
+                            "room": "930"
+                        }
+                    ],
+                    "instructor": "BALAZINSKA,MAGDALENA       O"
+                }
+            ]
         }
     ],
     "ENGR": [
@@ -37491,7 +38570,7 @@
                             "room": "330"
                         }
                     ],
-                    "instructor": "CUNNINGHAM,SONYA GAY                 "
+                    "instructor": "CUNNINGHAM,SONYA GAY                "
                 }
             ]
         },
@@ -37595,7 +38674,7 @@
                             "room": "110"
                         }
                     ],
-                    "instructor": "PRINCE,K DAVID                       "
+                    "instructor": "PRINCE,K DAVID                      "
                 },
                 {
                     "SLN": "14009",
@@ -37609,7 +38688,7 @@
                             "room": "100"
                         }
                     ],
-                    "instructor": "PRINCE,K DAVID                       "
+                    "instructor": "PRINCE,K DAVID                      "
                 },
                 {
                     "SLN": "14010",
@@ -37686,6 +38765,11 @@
             "sections": []
         },
         {
+            "num": "297",
+            "title": "VERT INT PROJECTS",
+            "sections": []
+        },
+        {
             "num": "320",
             "title": "ENGR CO-OP EDUC",
             "sections": []
@@ -37711,29 +38795,19 @@
                             "room": "230"
                         }
                     ],
-                    "instructor": "YEN,JOYCE WEN-HWEI         O"
+                    "instructor": "YEN,JOYCE WEN-HWEI         C"
                 }
             ]
         },
         {
+            "num": "497",
+            "title": "VERT INT PROJECTS",
+            "sections": []
+        },
+        {
             "num": "498",
             "title": "SPECIAL TOPICS",
-            "sections": [
-                {
-                    "SLN": "14031",
-                    "section": "A",
-                    "credit": "1",
-                    "meeting": [
-                        {
-                            "day": "T",
-                            "time": "130-220",
-                            "building": "LOW",
-                            "room": "130"
-                        }
-                    ],
-                    "instructor": "RISKIN,EVE A               O"
-                }
-            ]
+            "sections": []
         },
         {
             "num": "499",
@@ -37811,7 +38885,22 @@
         {
             "num": "308",
             "title": "VISUAL COMM HCDE",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "14869",
+                    "section": "A",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "TTh",
+                            "time": "1230-250",
+                            "building": "SIG",
+                            "room": "123"
+                        }
+                    ],
+                    "instructor": "CLARKSON,MELISSA D         O"
+                }
+            ]
         },
         {
             "num": "313",
@@ -37883,10 +38972,10 @@
                     "credit": "2",
                     "meeting": [
                         {
-                            "day": "T",
-                            "time": "300-450",
-                            "building": "ART",
-                            "room": "300"
+                            "day": "M",
+                            "time": "330-520",
+                            "building": "SIG",
+                            "room": "330"
                         }
                     ],
                     "instructor": "FOX,TYLER STEVEN           O"
@@ -37909,7 +38998,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "STARBIRD,CATHARINE E       O"
+                    "instructor": "STARBIRD,CATHARINE E       C"
                 }
             ]
         },
@@ -37929,7 +39018,7 @@
                             "room": "100"
                         }
                     ],
-                    "instructor": "CRAFT,BROCK R              O"
+                    "instructor": "CRAFT,BROCK R              C"
                 }
             ]
         },
@@ -37949,7 +39038,7 @@
                             "room": "330"
                         }
                     ],
-                    "instructor": "ZACHRY,MARK R              O"
+                    "instructor": "ZACHRY,MARK R              C"
                 },
                 {
                     "SLN": "14881",
@@ -38267,26 +39356,6 @@
             "title": "ENVIR PHYSIOLOGY",
             "sections": [
                 {
-                    "SLN": "14456",
-                    "section": "A",
-                    "credit": "5",
-                    "meeting": [
-                        {
-                            "day": "MWF",
-                            "time": "1030-1120",
-                            "building": "MWF",
-                            "room": "103"
-                        },
-                        {
-                            "day": "T",
-                            "time": "130-420",
-                            "building": "FTR",
-                            "room": "130"
-                        }
-                    ],
-                    "instructor": "ROBERTS,STEVEN             O"
-                },
-                {
                     "SLN": "14457",
                     "section": "B",
                     "credit": "3",
@@ -38457,7 +39526,7 @@
                             "room": "230"
                         }
                     ],
-                    "instructor": "HILBORN,RAY                          "
+                    "instructor": "HILBORN,RAY                O"
                 }
             ]
         },
@@ -38583,7 +39652,36 @@
         {
             "num": "104",
             "title": "PREHISTORIC LIFE",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "14248",
+                    "section": "A",
+                    "credit": "3",
+                    "meeting": [
+                        {
+                            "day": "MW",
+                            "time": "930-1020",
+                            "building": "JHN",
+                            "room": "930"
+                        }
+                    ],
+                    "instructor": "MARTIN,RUTH A.             O"
+                },
+                {
+                    "SLN": "21219",
+                    "section": "B",
+                    "credit": "3",
+                    "meeting": [
+                        {
+                            "day": "MW",
+                            "time": "930-1020",
+                            "building": "JHN",
+                            "room": "930"
+                        }
+                    ],
+                    "instructor": "MARTIN,RUTH A.             O"
+                }
+            ]
         },
         {
             "num": "106",
@@ -38691,6 +39789,11 @@
             ]
         },
         {
+            "num": "307",
+            "title": "ESS DIV OUTREACH",
+            "sections": []
+        },
+        {
             "num": "310",
             "title": "EARTH SCI MATH",
             "sections": [
@@ -38751,10 +39854,10 @@
                     "credit": "4",
                     "meeting": [
                         {
-                            "day": "TTh",
-                            "time": "1030-1120",
+                            "day": "MW",
+                            "time": "1130-1250",
                             "building": "JHN",
-                            "room": "103"
+                            "room": "113"
                         }
                     ],
                     "instructor": "HUNTINGTON,KATHARINE W     O"
@@ -38783,7 +39886,7 @@
                             "room": "230"
                         }
                     ],
-                    "instructor": "WALTERS,STEVEN             O"
+                    "instructor": "WALTERS,STEVEN             C"
                 }
             ]
         },
@@ -38822,7 +39925,54 @@
         {
             "num": "451",
             "title": "INVERT PALEONTOLOGY ",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "21496",
+                    "section": "A",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "MWF",
+                            "time": "130-220",
+                            "building": "MWF",
+                            "room": "130"
+                        },
+                        {
+                            "day": "MW",
+                            "time": "230-420",
+                            "building": "HCK",
+                            "room": "230"
+                        }
+                    ],
+                    "instructor": "WARD,PETER D.              O"
+                }
+            ]
+        },
+        {
+            "num": "453",
+            "title": "FOSSIL MAMMALS",
+            "sections": [
+                {
+                    "SLN": "21563",
+                    "section": "A",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "TTh",
+                            "time": "130-250",
+                            "building": "ART",
+                            "room": "130"
+                        },
+                        {
+                            "day": "F",
+                            "time": "130-420",
+                            "building": "BMM",
+                            "room": "130"
+                        }
+                    ],
+                    "instructor": "WILSON,GREGORY             O"
+                }
+            ]
         },
         {
             "num": "454",
@@ -38909,29 +40059,15 @@
             "title": "SPECIAL TOPICS",
             "sections": [
                 {
-                    "SLN": "14283",
-                    "section": "A",
-                    "credit": "3-5",
-                    "meeting": [
-                        {
-                            "day": "TTh",
-                            "time": "1030-1150",
-                            "building": "JHN",
-                            "room": "103"
-                        }
-                    ],
-                    "instructor": "WINGLEE,ROBERT M           O"
-                },
-                {
                     "SLN": "14285",
                     "section": "C",
                     "credit": "2",
                     "meeting": [
                         {
-                            "day": "TTh",
-                            "time": "1200-120",
+                            "day": "T",
+                            "time": "130-320",
                             "building": "JHN",
-                            "room": "120"
+                            "room": "130"
                         }
                     ],
                     "instructor": "CRIDER,JULIET G            O"
@@ -38939,7 +40075,7 @@
                 {
                     "SLN": "14286",
                     "section": "E",
-                    "credit": "1-10",
+                    "credit": "4",
                     "meeting": [
                         {
                             "day": "MW",
@@ -39226,11 +40362,6 @@
             ]
         },
         {
-            "num": "588",
-            "title": "CARBON AND CLIMATE",
-            "sections": []
-        },
-        {
             "num": "590",
             "title": "SPECIAL TOPICS",
             "sections": [
@@ -39254,10 +40385,10 @@
                     "credit": "2",
                     "meeting": [
                         {
-                            "day": "TTh",
-                            "time": "1200-120",
+                            "day": "T",
+                            "time": "130-320",
                             "building": "JHN",
-                            "room": "120"
+                            "room": "130"
                         }
                     ],
                     "instructor": "CRIDER,JULIET G            O"
@@ -39265,7 +40396,7 @@
                 {
                     "SLN": "14311",
                     "section": "E",
-                    "credit": "2-10",
+                    "credit": "4",
                     "meeting": [
                         {
                             "day": "MW",
@@ -39442,7 +40573,22 @@
         {
             "num": "280",
             "title": "NAT HIST PUGET SOUND",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "14114",
+                    "section": "A",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "TTh",
+                            "time": "930-1120",
+                            "building": "ARC",
+                            "room": "930"
+                        }
+                    ],
+                    "instructor": "BILLO,TIMOTHY              O"
+                }
+            ]
         },
         {
             "num": "295",
@@ -39525,7 +40671,7 @@
                             "room": "930"
                         }
                     ],
-                    "instructor": "HARRELL,STEVAN             O"
+                    "instructor": "HARRELL,STEVAN             C"
                 }
             ]
         },
@@ -40010,7 +41156,7 @@
                             "room": "123"
                         }
                     ],
-                    "instructor": "PRUGH,LAURA                O"
+                    "instructor": "PRUGH,LAURA RYANNE         O"
                 }
             ]
         },
@@ -40040,7 +41186,7 @@
                             "room": "930"
                         }
                     ],
-                    "instructor": "HARRELL,STEVAN             O"
+                    "instructor": "HARRELL,STEVAN             C"
                 }
             ]
         },
@@ -40086,7 +41232,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "BAKKER,JONATHAN            O"
+                    "instructor": "BAKKER,JONATHAN            C"
                 }
             ]
         },
@@ -40106,7 +41252,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "HARRISON,ROBERT B.         O"
+                    "instructor": "HARRISON,ROBERT B.         C"
                 }
             ]
         },
@@ -40340,9 +41486,9 @@
                         },
                         {
                             "day": "Th",
-                            "time": "130-250",
+                            "time": "200-320",
                             "building": "MGH",
-                            "room": "130"
+                            "room": "200"
                         }
                     ],
                     "instructor": "TOTH,SANDOR F.             O"
@@ -40529,9 +41675,9 @@
                         },
                         {
                             "day": "Th",
-                            "time": "130-250",
+                            "time": "200-320",
                             "building": "MGH",
-                            "room": "130"
+                            "room": "200"
                         }
                     ],
                     "instructor": "TOTH,SANDOR F.             O"
@@ -40686,9 +41832,9 @@
                     "meeting": [
                         {
                             "day": "F",
-                            "time": "900-450",
+                            "time": "1000-1150",
                             "building": "FSH",
-                            "room": "900"
+                            "room": "100"
                         }
                     ],
                     "instructor": "ALLISON,EDWARD HUGH        O"
@@ -40763,34 +41909,6 @@
                     "instructor": "QUAY,PAUL D                O"
                 },
                 {
-                    "SLN": "17783",
-                    "section": "AD",
-                    "credit": "QZ",
-                    "meeting": [
-                        {
-                            "day": "M",
-                            "time": "230-320",
-                            "building": "BAG",
-                            "room": "230"
-                        }
-                    ],
-                    "instructor": "QUAY,PAUL D                O"
-                },
-                {
-                    "SLN": "17784",
-                    "section": "AE",
-                    "credit": "QZ",
-                    "meeting": [
-                        {
-                            "day": "M",
-                            "time": "330-420",
-                            "building": "JHN",
-                            "room": "330"
-                        }
-                    ],
-                    "instructor": "QUAY,PAUL D                O"
-                },
-                {
                     "SLN": "17785",
                     "section": "AF",
                     "credit": "QZ",
@@ -40813,20 +41931,6 @@
                             "day": "T",
                             "time": "1230-120",
                             "building": "SAV",
-                            "room": "123"
-                        }
-                    ],
-                    "instructor": "QUAY,PAUL D                O"
-                },
-                {
-                    "SLN": "17787",
-                    "section": "AH",
-                    "credit": "QZ",
-                    "meeting": [
-                        {
-                            "day": "T",
-                            "time": "1230-120",
-                            "building": "MLR",
                             "room": "123"
                         }
                     ],
@@ -40873,12 +41977,12 @@
                     "meeting": [
                         {
                             "day": "T",
-                            "time": "300-550",
+                            "time": "100-350",
                             "building": "OTB",
-                            "room": "300"
+                            "room": "100"
                         }
                     ],
-                    "instructor": "YOUNG,JODI N               O"
+                    "instructor": "INGALLS,ANITRA E.          O"
                 },
                 {
                     "SLN": "17792",
@@ -40887,12 +41991,12 @@
                     "meeting": [
                         {
                             "day": "T",
-                            "time": "300-550",
+                            "time": "100-350",
                             "building": "OTB",
-                            "room": "300"
+                            "room": "100"
                         }
                     ],
-                    "instructor": "YOUNG,JODI N               O"
+                    "instructor": "INGALLS,ANITRA E.          O"
                 },
                 {
                     "SLN": "17793",
@@ -40965,14 +42069,29 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "WARNER,MARK J                        "
+                    "instructor": "WARNER,MARK J                       "
                 }
             ]
         },
         {
             "num": "235",
             "title": "ARCTIC CHANGE",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "17798",
+                    "section": "A",
+                    "credit": "2",
+                    "meeting": [
+                        {
+                            "day": "MWF",
+                            "time": "1130-1220",
+                            "building": "MWF",
+                            "room": "113"
+                        }
+                    ],
+                    "instructor": "WOODGATE,REBECCA A         O"
+                }
+            ]
         },
         {
             "num": "261",
@@ -41396,26 +42515,6 @@
             ]
         },
         {
-            "num": "586",
-            "title": "CLIMATE SEMINAR",
-            "sections": [
-                {
-                    "SLN": "17828",
-                    "section": "A",
-                    "credit": "2",
-                    "meeting": [
-                        {
-                            "day": "T",
-                            "time": "330-520",
-                            "building": "ARC",
-                            "room": "330"
-                        }
-                    ],
-                    "instructor": "MURRAY,JAMES W             O"
-                }
-            ]
-        },
-        {
             "num": "589",
             "title": "PALEOCLIMATOLOGY",
             "sections": [
@@ -41609,7 +42708,7 @@
                             "room": "430"
                         }
                     ],
-                    "instructor": "HAY,GREGORY THOMAS         O"
+                    "instructor": "HAY,GREGORY THOMAS         C"
                 },
                 {
                     "SLN": "15381",
@@ -41655,7 +42754,7 @@
                             "room": "730"
                         }
                     ],
-                    "instructor": "CAMPBELL,CLINTON J         O"
+                    "instructor": "CAMPBELL,CLINTON J         C"
                 }
             ]
         },
@@ -41778,7 +42877,7 @@
                             "room": "930"
                         }
                     ],
-                    "instructor": "MCKENNA,ANDREW CHARLES     O"
+                    "instructor": "MCKENNA,ANDREW CHARLES     C"
                 },
                 {
                     "SLN": "15394",
@@ -41968,7 +43067,7 @@
                             "room": "930"
                         }
                     ],
-                    "instructor": "KO,ANDREW J                O"
+                    "instructor": "KO,ANDREW J                C"
                 },
                 {
                     "SLN": "15408",
@@ -42014,7 +43113,7 @@
                             "room": "530"
                         }
                     ],
-                    "instructor": "MOTT,MARTEZ E              O"
+                    "instructor": "MOTT,MARTEZ E              C"
                 },
                 {
                     "SLN": "15410",
@@ -42101,7 +43200,7 @@
                         {
                             "day": "F",
                             "time": "830-1220",
-                            "building": "EGL",
+                            "building": "PCAR",
                             "room": "830"
                         }
                     ],
@@ -42183,7 +43282,7 @@
                             "room": "730"
                         }
                     ],
-                    "instructor": "LEVINE,JASON               O"
+                    "instructor": "LEVINE,JASON               C"
                 }
             ]
         },
@@ -42329,7 +43428,7 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "HOWE,WILLIAM GREGORY       O"
+                    "instructor": "HOWE,WILLIAM GREGORY       C"
                 }
             ]
         },
@@ -42439,7 +43538,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "GOMEZ,RICARDO J            O"
+                    "instructor": "GOMEZ,RICARDO J            C"
                 },
                 {
                     "SLN": "15476",
@@ -42820,9 +43919,29 @@
             "sections": []
         },
         {
+            "num": "585",
+            "title": "FIELDWRK GEN COLLTN ",
+            "sections": []
+        },
+        {
             "num": "588",
             "title": "SPC TPC MUSEOLOGY",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "17222",
+                    "section": "B",
+                    "credit": "3",
+                    "meeting": [
+                        {
+                            "day": "F",
+                            "time": "930-1220",
+                            "building": "SMI",
+                            "room": "930"
+                        }
+                    ],
+                    "instructor": "MAGELSSEN,SCOTT                      "
+                }
+            ]
         },
         {
             "num": "599",
@@ -43362,6 +44481,11 @@
             "sections": []
         },
         {
+            "num": "403",
+            "title": "CAPSTONE RESEARCH",
+            "sections": []
+        },
+        {
             "num": "405",
             "title": "TEAM DESIGN II",
             "sections": []
@@ -43407,7 +44531,7 @@
                             "room": "113"
                         }
                     ],
-                    "instructor": "SANDERS,JOAN ELIZABETH     O"
+                    "instructor": "SANDERS,JOAN ELIZABETH     C"
                 }
             ]
         },
@@ -43487,7 +44611,7 @@
                             "room": "930"
                         }
                     ],
-                    "instructor": "LUTZ,BARRY R.              O"
+                    "instructor": "LUTZ,BARRY R.              C"
                 },
                 {
                     "SLN": "11165",
@@ -43585,7 +44709,7 @@
                             "room": "113"
                         }
                     ],
-                    "instructor": "KUEH,HAO YUAN              C"
+                    "instructor": "KUEH,HAO YUAN              O"
                 }
             ]
         },
@@ -43865,11 +44989,6 @@
             "sections": []
         },
         {
-            "num": "546",
-            "title": "EMERGENCY RESPONSE",
-            "sections": []
-        },
-        {
             "num": "584",
             "title": "PLANT TUMORS",
             "sections": []
@@ -43890,7 +45009,7 @@
                             "room": "830"
                         }
                     ],
-                    "instructor": "WHITNEY,JOANNE D.                    "
+                    "instructor": "WHITNEY,JOANNE D.          O"
                 }
             ]
         }
@@ -44276,7 +45395,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "DUNHAM,MAITREYA J          O"
+                    "instructor": "DUNHAM,MAITREYA J          C"
                 },
                 {
                     "SLN": "14667",
@@ -44290,7 +45409,7 @@
                             "room": "230"
                         }
                     ],
-                    "instructor": "DUNHAM,MAITREYA J          O"
+                    "instructor": "DUNHAM,MAITREYA J          C"
                 },
                 {
                     "SLN": "14668",
@@ -44318,7 +45437,7 @@
                             "room": "930"
                         }
                     ],
-                    "instructor": "DUNHAM,MAITREYA J          O"
+                    "instructor": "DUNHAM,MAITREYA J          C"
                 },
                 {
                     "SLN": "14670",
@@ -44332,7 +45451,7 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "DUNHAM,MAITREYA J          O"
+                    "instructor": "DUNHAM,MAITREYA J          C"
                 },
                 {
                     "SLN": "14671",
@@ -44346,7 +45465,7 @@
                             "room": "113"
                         }
                     ],
-                    "instructor": "DUNHAM,MAITREYA J          O"
+                    "instructor": "DUNHAM,MAITREYA J          C"
                 },
                 {
                     "SLN": "14672",
@@ -44360,7 +45479,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "DUNHAM,MAITREYA J          O"
+                    "instructor": "DUNHAM,MAITREYA J          C"
                 },
                 {
                     "SLN": "14673",
@@ -44402,7 +45521,7 @@
                             "room": "930"
                         }
                     ],
-                    "instructor": "CHEONG,KA YAN              O"
+                    "instructor": "CHEONG,KA YAN              C"
                 },
                 {
                     "SLN": "14676",
@@ -44416,7 +45535,7 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "CHEONG,KA YAN              O"
+                    "instructor": "CHEONG,KA YAN              C"
                 },
                 {
                     "SLN": "14677",
@@ -44444,7 +45563,7 @@
                             "room": "123"
                         }
                     ],
-                    "instructor": "CHEONG,KA YAN              O"
+                    "instructor": "CHEONG,KA YAN              C"
                 },
                 {
                     "SLN": "14679",
@@ -44458,7 +45577,7 @@
                             "room": "123"
                         }
                     ],
-                    "instructor": "CHEONG,KA YAN              O"
+                    "instructor": "CHEONG,KA YAN              C"
                 }
             ]
         },
@@ -44478,7 +45597,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "BORENSTEIN,ELHANAN A       O"
+                    "instructor": "BORENSTEIN,ELHANAN A       C"
                 },
                 {
                     "SLN": "14681",
@@ -44492,7 +45611,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "BORENSTEIN,ELHANAN A       O"
+                    "instructor": "BORENSTEIN,ELHANAN A       C"
                 }
             ]
         },
@@ -44617,7 +45736,7 @@
                             "room": "900"
                         }
                     ],
-                    "instructor": "LEE,SU-IN                            "
+                    "instructor": "LEE,SU-IN                           "
                 }
             ]
         },
@@ -44970,7 +46089,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "BEINS,ALMIRA S             O"
+                    "instructor": "BEINS,ALMIRA S             C"
                 },
                 {
                     "SLN": "16979",
@@ -45173,7 +46292,7 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "CHANDLER,MARK S            O"
+                    "instructor": "CHANDLER,MARK S                     "
                 },
                 {
                     "SLN": "21204",
@@ -45187,7 +46306,7 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "CHANDLER,MARK S            O"
+                    "instructor": "CHANDLER,MARK S                     "
                 }
             ]
         },
@@ -45862,6 +46981,11 @@
     ],
     "REHAB": [
         {
+            "num": "498",
+            "title": "UNDERGRAD THESIS",
+            "sections": []
+        },
+        {
             "num": "520",
             "title": "SEMINAR",
             "sections": []
@@ -45946,6 +47070,11 @@
         {
             "num": "554",
             "title": "INTERPROFESS PRACT",
+            "sections": []
+        },
+        {
+            "num": "557",
+            "title": "EVID BASED REHAB",
             "sections": []
         },
         {
@@ -46751,7 +47880,7 @@
                             "room": "123"
                         }
                     ],
-                    "instructor": "KELLY,EDWARD J             O"
+                    "instructor": "XU,LIBIN                   O"
                 }
             ]
         },
@@ -47056,7 +48185,7 @@
                             "room": "830"
                         }
                     ],
-                    "instructor": "HO,RODNEY J.Y.             O"
+                    "instructor": "HO,RODNEY J.Y.             C"
                 }
             ]
         },
@@ -47483,6 +48612,26 @@
             ]
         },
         {
+            "num": "571",
+            "title": "ACU CARE PCOTHERAP",
+            "sections": [
+                {
+                    "SLN": "18183",
+                    "section": "A",
+                    "credit": "1",
+                    "meeting": [
+                        {
+                            "day": "F",
+                            "time": "1130-1220",
+                            "building": "HST",
+                            "room": "113"
+                        }
+                    ],
+                    "instructor": "CHAN,LINGTAK-NEANDER                 "
+                }
+            ]
+        },
+        {
             "num": "582",
             "title": "SPEC TOPICS GH PH",
             "sections": [
@@ -47633,7 +48782,7 @@
                             "room": "113"
                         }
                     ],
-                    "instructor": "ALLEN,RACHEL ANNETTE       O"
+                    "instructor": "ALLEN,RACHEL ANNETTE       C"
                 }
             ]
         },
@@ -48191,7 +49340,7 @@
                             "room": "430"
                         }
                     ],
-                    "instructor": "BADSHAH,AKHTAR             C"
+                    "instructor": "BADSHAH,AKHTAR             O"
                 }
             ]
         },
@@ -48316,7 +49465,7 @@
                             "room": "113"
                         }
                     ],
-                    "instructor": "SOMASHEKHAR,MAHESH H       C"
+                    "instructor": "SOMASHEKHAR,MAHESH H       O"
                 }
             ]
         },
@@ -48616,7 +49765,7 @@
                             "room": "123"
                         }
                     ],
-                    "instructor": "MANCL,LLOYD A.             O"
+                    "instructor": "MANCL,LLOYD A.             C"
                 },
                 {
                     "SLN": "11476",
@@ -49407,7 +50556,22 @@
         {
             "num": "456",
             "title": "QA/RESEARCH HLTH",
-            "sections": []
+            "sections": [
+                {
+                    "SLN": "14919",
+                    "section": "A",
+                    "credit": "5",
+                    "meeting": [
+                        {
+                            "day": "MW",
+                            "time": "630-850P",
+                            "building": "OUG",
+                            "room": "630"
+                        }
+                    ],
+                    "instructor": "DASCHER,PAULA              O"
+                }
+            ]
         },
         {
             "num": "462",
@@ -49509,7 +50673,7 @@
                             "room": "500"
                         }
                     ],
-                    "instructor": "SPIGNER,CLARENCE           O"
+                    "instructor": "SPIGNER,CLARENCE           C"
                 }
             ]
         },
@@ -49599,7 +50763,7 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "FOLDYNA,ERIKA              O"
+                    "instructor": "FOLDYNA,ERIKA              C"
                 },
                 {
                     "SLN": "14967",
@@ -49797,7 +50961,7 @@
                     "credit": "3",
                     "meeting": [
                         {
-                            "day": "MW",
+                            "day": "M",
                             "time": "200-450",
                             "building": "HSE",
                             "room": "200"

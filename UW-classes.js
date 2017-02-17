@@ -60,7 +60,54 @@ module.exports.getClassSections = function (abbr, num){
 //		section, or give the whole chunk to abbr
 // post: will return the lecture section along with the avaliable Quiz Sections
 //		 in json format, or else return null
-module.exports.getQuizSections = function (abbr, num, section){}
+module.exports.getQuizSections = function (abbr, num, section){
+	if(typeof num != typeof section){
+		return null;
+	}
+
+	abbr = abbr.toUpperCase();
+
+	// conditions to return null
+	if(typeof num == typeof section){
+		if(typeof nun == 'undefined'){
+			if(!abbr.trim().match(/([A-Z]+)\s+([0-9]{3})\s+([A-Z]{1})$/)){
+				return null
+			}
+
+			num = abbr.trim().match(/([A-Z]+)\s+([0-9]{3})\s+([A-Z]{1})$/)[2];
+			section = abbr.trim().match(/([A-Z]+)\s+([0-9]{3})\s+([A-Z]{1})$/)[3];
+			abbr = abbr.trim().match(/([A-Z]+)\s+([0-9]{3})\s+([A-Z]{1})$/)[1];
+		}else{
+			section = section.toUpperCase();
+
+			if(!num.trim().match(/^[0-9]{3}$/)){
+				return null;
+			}
+
+			if(!section.trim().match(/^[A-Z]$/)){
+				return null;
+			}
+		}
+	}
+
+	var list = this.getClassSections(abbr, num);
+	if(!list){
+		return null;
+	}
+
+	var matchedSection = [];
+	for(var i = 0; i < list.length; i++){
+		if(list[i].section.match(new RegExp(section + '[A-Z]?'))){
+			matchedSection.push(list[i]);
+		}
+	}
+
+	if(matchedSection.length == 0){
+		return null;
+	}
+
+	return matchedSection;
+}
 
 // pre: should give section a String of section abbr, num, and section, or
 //		pass in a Number of SLN to section

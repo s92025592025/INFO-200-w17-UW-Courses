@@ -172,4 +172,6 @@ module.exports.getSectionBySLN = function (sln){
 //		in number
 // post: will return a list of schedule in json format regardless the quality
 //		 of the schedule
-module.exports.buildSchedule = function (classes){}
+module.exports.buildSchedule = function (classes){
+	// js stack: push(), pop()
+}

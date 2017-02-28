@@ -218,6 +218,15 @@ module.exports._checkConflict = function (schedule){
 	}
 
 	// do checking
+	for(var i = 0; i < allTimes.length; i++){
+		for(var s = 0; s < allTimes.length; s++){
+			if(i != s){
+				if(!this._checkTimeConflict(allTimes[i], allTimes[s])){
+					return false;
+				}
+			}
+		}
+	}
 
 	return true;
 }

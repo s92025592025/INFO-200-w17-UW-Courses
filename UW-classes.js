@@ -195,4 +195,70 @@ module.exports.buildSchedule = function (classes){
 //		from buildSchedule, an empty stack to schedules, and array to final schedule in
 //		order to track all built schedule
 // post: will return an array of possible schedule each in json object
-module.exports._buildSchedule = function (classes, schedules, finalSchedule){}
+module.exports._buildSchedule = function (classes, scheduleJson, schedules, finalSchedule){
+	if(classes.length <= 0){
+		finalSchedule.push(scheduleJson);
+	}
+
+	while(classes.length){
+		for(var i = 0; i < classes[classes.length - 1].length; i++){
+
+		}
+	}
+}
+
+// pre: pass in a json array of class
+// post: will check if the schedule conflicted, return TRUE if not
+module.exports._checkConflict = function (schedule){
+	var allTimes = [];
+	for(var key in schedule){
+		for(var i = 0; i < schedule[key].meeting.length; i++){
+			allTimes.push(schedule[key].meeting[i]);
+		}
+	}
+
+	// do checking
+
+	return true;
+}
+
+// pre: pass in two time json information about events
+// post: will return true if time2 doesn't conflict with time1
+module.exports._checkTimeConflict= function (time1, time2){
+	var weekTime1 = time1.day.match(/(M)|(W)|(Th|T)|(F)|(Sat\.)/g);
+	var meetTime1 = time1.time.match(/([0-9]{3,4})/g);
+	var weekTime2 = time2.day.match(/(M)|(W)|(Th|T)|(F)|(Sat\.)/g);
+	var meetTime2 = time2.time.match(/([0-9]{3,4})/g);
+
+	for(var i = 0; i < meetTime1.length; i++){
+		if(Number(meetTime1[i]) / 100 < 8){
+			meetTime1[i] = Number(meetTime1[i]) + 1200 + "";
+		}
+	}
+
+	for(var i = 0; i < meetTime2.length; i++){
+		if(Number(meetTime2[i]) / 100 < 8){
+			meetTime2[i] = Number(meetTime2[i]) + 1200 + "";
+		}
+	}
+
+	for(var i = 0; i < weekTime1.length; i++){
+		for(var s = 0; s < weekTime2.length; s++){
+			if(weekTime1[i] == weekTime2[s]){
+				if(meetTime1[0] <= meetTime2[0] && meetTime1[1] >= meetTime2[0]){
+					return false;
+				}
+
+				if(meetTime1[0] <= meetTime2[1] && meetTime1[1] >= meetTime2[1]){
+					return false;
+				}
+
+				if(meetTime2[0] <= meetTime1[1] && meetTime2[1] >= meetTime1[1]){
+					return false;
+				}
+			}
+		}
+	}
+
+	return true;
+}

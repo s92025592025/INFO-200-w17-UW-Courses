@@ -190,3 +190,9 @@ module.exports.buildSchedule = function (classes){
 
 	console.log(classInfoList);
 }
+
+// pre: backtrack recursion to build schedule, should pass in an array of classes info
+//		from buildSchedule, an empty stack to schedules, and array to final schedule in
+//		order to track all built schedule
+// post: will return an array of possible schedule each in json object
+module.exports._buildSchedule = function (classes, schedules, finalSchedule){}

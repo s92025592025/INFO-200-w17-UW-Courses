@@ -187,4 +187,6 @@ module.exports.buildSchedule = function (classes){
 			classInfoList.push(this.getQuizSections(classes[i].trim()));
 		}
 	}
+
+	console.log(classInfoList);
 }

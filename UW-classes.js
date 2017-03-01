@@ -49,6 +49,11 @@ module.exports.getClassSections = function (abbr, num){
 
 	for(var i = 0; i < list.length; i++){
 		if(list[i].num == num.trim()){
+			for(var s = 0; s < list[i].sections.length; s++){
+				list[i].sections[s].abbr = abbr;
+				list[i].sections[s].num = num;
+			}
+			
 			return list[i].sections;
 		}
 	}
@@ -98,6 +103,8 @@ module.exports.getQuizSections = function (abbr, num, section){
 	var matchedSection = [];
 	for(var i = 0; i < list.length; i++){
 		if(list[i].section.match(new RegExp(section + '[A-Z]?'))){
+			list[i].abbr = abbr;
+			list[i].num = num;
 			matchedSection.push(list[i]);
 		}
 	}
@@ -183,8 +190,10 @@ module.exports.buildSchedule = function (classes){
 			classInfoList.push(this.getSectionBySLN(Number(classes[i])));
 		}else if(classes[i].trim().match(/^[A-Z]+\s+[0-9]{3}$/)){
 			classInfoList.push(this.getClassSections(classes[i].trim()));
-		}else{
+		}else if(classes[i].trim().match(/^[A-Z]+\s+[0-9]{3}\s+[A-Z]$/)){
 			classInfoList.push(this.getQuizSections(classes[i].trim()));
+		}else{
+			classInfoList.push(this.getSectionInfo(classes[i].trim()));
 		}
 	}
 

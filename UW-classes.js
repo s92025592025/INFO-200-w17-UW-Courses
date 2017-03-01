@@ -53,7 +53,7 @@ module.exports.getClassSections = function (abbr, num){
 				list[i].sections[s].abbr = abbr;
 				list[i].sections[s].num = num;
 			}
-			
+
 			return list[i].sections;
 		}
 	}
@@ -242,7 +242,7 @@ module.exports._checkConflict = function (schedule){
 
 // pre: pass in two time json information about events
 // post: will return true if time2 doesn't conflict with time1
-module.exports._checkTimeConflict= function (time1, time2){
+module.exports._checkTimeConflict = function (time1, time2){
 	var weekTime1 = time1.day.match(/(M)|(W)|(Th|T)|(F)|(Sat\.)/g);
 	var meetTime1 = time1.time.match(/([0-9]{3,4})/g);
 	var weekTime2 = time2.day.match(/(M)|(W)|(Th|T)|(F)|(Sat\.)/g);
@@ -274,6 +274,21 @@ module.exports._checkTimeConflict= function (time1, time2){
 				if(meetTime2[0] <= meetTime1[1] && meetTime2[1] >= meetTime1[1]){
 					return false;
 				}
+			}
+		}
+	}
+
+	return true;
+}
+
+
+// pre: should give a current array of json schedule to schedule, section json to section
+// post: will return true if course type is not same in a course, and vice versa
+module.exports._checkCourseCombine = function (schedule, section){
+	for(var key in schedule){
+		if(schedule[key].abbr == section.abbr && schedule[key].num == section.num){
+			if(schedule[key].credit == section.credit){
+				return false;
 			}
 		}
 	}

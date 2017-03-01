@@ -196,8 +196,9 @@ module.exports.buildSchedule = function (classes){
 			classInfoList.push(this.getSectionInfo(classes[i].trim()));
 		}
 	}
-
-	console.log(classInfoList);
+	var temp = [];
+	this._buildSchedule(classInfoList, {}, [], temp)
+	console.log(temp);
 }
 
 // pre: backtrack recursion to build schedule, should pass in an array of classes info
@@ -207,13 +208,24 @@ module.exports.buildSchedule = function (classes){
 module.exports._buildSchedule = function (classes, scheduleJson, schedules, finalSchedule){
 	if(classes.length <= 0){
 		finalSchedule.push(scheduleJson);
+
+		return true;
 	}
 
-	while(classes.length){
-		for(var i = 0; i < classes[classes.length - 1].length; i++){
-
+	for(var i = 0; i < classes[classes.length - 1].length; i++){
+		console.log(classes[classes.length - 1][i]);
+		var className = classes[classes.length - 1][i].abbr + " " +
+						classes[classes.length - 1][i].num + " " +
+						classes[classes.length - 1][i].credit;
+		scheduleJson[className] = classes[classes.length - 1][i];
+		if(!this._checkConflict(scheduleJson)){
+			delete scheduleJson[className];
 		}
 	}
+
+	var temp = classes.pop();
+	this._buildSchedule(classes, scheduleJson, schedules, finalSchedule);
+	classes.push(temp);
 }
 
 // pre: pass in a json array of class

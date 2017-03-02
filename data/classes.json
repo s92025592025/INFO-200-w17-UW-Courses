@@ -390,7 +390,7 @@
                             "room": "330"
                         }
                     ],
-                    "instructor": "IBRAHIM,HABIBA             O"
+                    "instructor": "IBRAHIM,HABIBA             C"
                 }
             ]
         },
@@ -1899,6 +1899,11 @@
             ]
         },
         {
+            "num": "363",
+            "title": "APPLIED VISUAL ANTH ",
+            "sections": []
+        },
+        {
             "num": "369",
             "title": "SPEC PROB IN ANTH",
             "sections": [
@@ -2033,7 +2038,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "ANAGNOST,ANN S.            O"
+                    "instructor": "ANAGNOST,ANN S.            C"
                 }
             ]
         },
@@ -2906,7 +2911,7 @@
                             "room": "120"
                         }
                     ],
-                    "instructor": "VOGL,CHRISTOPHER J.        O"
+                    "instructor": "VOGL,CHRISTOPHER J.        C"
                 },
                 {
                     "SLN": "10267",
@@ -3078,7 +3083,7 @@
                             "room": "230"
                         }
                     ],
-                    "instructor": "CUMMINS,REBECCA            O"
+                    "instructor": "CUMMINS,REBECCA            C"
                 },
                 {
                     "SLN": "10471",
@@ -3092,7 +3097,7 @@
                             "room": "230"
                         }
                     ],
-                    "instructor": "OLDHAM,CHRISTIAN           O"
+                    "instructor": "OLDHAM,CHRISTIAN           C"
                 },
                 {
                     "SLN": "10472",
@@ -3833,7 +3838,7 @@
                             "room": "330"
                         }
                     ],
-                    "instructor": "CHENG,KAREN                C"
+                    "instructor": "CHENG,KAREN                O"
                 }
             ]
         },
@@ -5747,7 +5752,7 @@
                             "room": "123"
                         }
                     ],
-                    "instructor": "MATSUDA-KIAMI,IZUMI        O"
+                    "instructor": "MATSUDA-KIAMI,IZUMI        C"
                 },
                 {
                     "SLN": "15577",
@@ -7299,7 +7304,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "HO,WINNIE W                O"
+                    "instructor": "HO,WINNIE W                C"
                 },
                 {
                     "SLN": "11197",
@@ -7341,7 +7346,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "HO,WINNIE W                O"
+                    "instructor": "HO,WINNIE W                C"
                 },
                 {
                     "SLN": "11200",
@@ -7509,7 +7514,7 @@
                             "room": "113"
                         }
                     ],
-                    "instructor": "HAUSER,LORENZ              C"
+                    "instructor": "HAUSER,LORENZ              O"
                 }
             ]
         },
@@ -8287,7 +8292,7 @@
                             "room": "830"
                         }
                     ],
-                    "instructor": "MCABEE,JESSICA             O"
+                    "instructor": "MCABEE,JESSICA             C"
                 }
             ]
         },
@@ -8793,7 +8798,7 @@
                             "room": "123"
                         }
                     ],
-                    "instructor": "MUKERJI,JOYA                         "
+                    "instructor": "MUKERJI,JOYA                        "
                 }
             ]
         },
@@ -8951,7 +8956,7 @@
                             "room": "330"
                         }
                     ],
-                    "instructor": "LIEPKALNS,JUSTINE          O"
+                    "instructor": "LIEPKALNS,JUSTINE          C"
                 },
                 {
                     "SLN": "11391",
@@ -11917,7 +11922,7 @@
                             "room": "123"
                         }
                     ],
-                    "instructor": "FU,DAN                     C"
+                    "instructor": "FU,DAN                     O"
                 }
             ]
         },
@@ -12852,7 +12857,8 @@
                             "building": "MTWT",
                             "room": "930"
                         }
-                    ]
+                    ],
+                    "instructor": "CONNORS,CATHERINE M.                 "
                 },
                 {
                     "SLN": "21715",
@@ -12865,7 +12871,8 @@
                             "building": "MTWT",
                             "room": "113"
                         }
-                    ]
+                    ],
+                    "instructor": "CONNORS,CATHERINE M.                 "
                 },
                 {
                     "SLN": "21716",
@@ -12878,7 +12885,8 @@
                             "building": "MTWT",
                             "room": "103"
                         }
-                    ]
+                    ],
+                    "instructor": "CONNORS,CATHERINE M.                 "
                 }
             ]
         },
@@ -13819,7 +13827,7 @@
                             "room": "930"
                         }
                     ],
-                    "instructor": "MCGARRITY,MATTHEW K        O"
+                    "instructor": "MCGARRITY,MATTHEW K        C"
                 }
             ]
         },
@@ -14854,7 +14862,7 @@
                             "room": "123"
                         }
                     ],
-                    "instructor": "GROENING,STEPHEN F         O"
+                    "instructor": "GROENING,STEPHEN F         C"
                 }
             ]
         },
@@ -17265,7 +17273,7 @@
                             "room": "330"
                         }
                     ],
-                    "instructor": "RAO,JUSTIN M               O"
+                    "instructor": "RAO,JUSTIN M               C"
                 }
             ]
         },
@@ -17524,7 +17532,7 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "EICHER,THEO S.             C"
+                    "instructor": "EICHER,THEO S.             O"
                 },
                 {
                     "SLN": "13452",
@@ -17597,7 +17605,7 @@
                             "room": "530"
                         }
                     ],
-                    "instructor": "DUNCAN,GREGORY             C"
+                    "instructor": "DUNCAN,GREGORY             O"
                 }
             ]
         },
@@ -18142,7 +18150,8 @@
                             "building": "MGH",
                             "room": "103"
                         }
-                    ]
+                    ],
+                    "instructor": "BABBIE,RAYMOND TYLER       C"
                 },
                 {
                     "SLN": "13782",
@@ -18217,7 +18226,8 @@
                             "building": "MGH",
                             "room": "123"
                         }
-                    ]
+                    ],
+                    "instructor": "BOYLE,ELIZABETH            O"
                 },
                 {
                     "SLN": "13787",
@@ -18230,7 +18240,8 @@
                             "building": "MTWT",
                             "room": "123"
                         }
-                    ]
+                    ],
+                    "instructor": "ABELLA,DAN D               C"
                 },
                 {
                     "SLN": "13788",
@@ -18545,7 +18556,7 @@
                             "room": "830"
                         }
                     ],
-                    "instructor": "PEELING,JULIANNE DOROTHY   O"
+                    "instructor": "PEELING,JULIANNE DOROTHY   C"
                 },
                 {
                     "SLN": "13821",
@@ -18708,7 +18719,7 @@
                             "room": "123"
                         }
                     ],
-                    "instructor": "ALHARTHI,AHMAD A A         O"
+                    "instructor": "ALHARTHI,AHMAD A A         C"
                 },
                 {
                     "SLN": "13852",
@@ -18734,7 +18745,8 @@
                             "building": "THO",
                             "room": "123"
                         }
-                    ]
+                    ],
+                    "instructor": "SEARS,DANIEL               C"
                 },
                 {
                     "SLN": "13854",
@@ -18948,7 +18960,7 @@
                             "room": "113"
                         }
                     ],
-                    "instructor": "HOTZ,ALYSSE JACLYN         O"
+                    "instructor": "HOTZ,ALYSSE JACLYN         C"
                 },
                 {
                     "SLN": "13872",
@@ -19024,7 +19036,7 @@
                             "room": "100"
                         }
                     ],
-                    "instructor": "FRASER,OLIVER J.           C"
+                    "instructor": "FRASER,OLIVER J.           O"
                 },
                 {
                     "SLN": "13875",
@@ -19176,7 +19188,7 @@
                             "room": "230"
                         }
                     ],
-                    "instructor": "GEORGE,EMILY C             C"
+                    "instructor": "GEORGE,EMILY C             O"
                 },
                 {
                     "SLN": "13887",
@@ -19238,7 +19250,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "CHERNIAVSKY,EVA            C"
+                    "instructor": "CHERNIAVSKY,EVA            O"
                 }
             ]
         },
@@ -19346,7 +19358,7 @@
                             "room": "113"
                         }
                     ],
-                    "instructor": "JANSSEN,ELIZABETH COLE     C"
+                    "instructor": "JANSSEN,ELIZABETH COLE     O"
                 },
                 {
                     "SLN": "13897",
@@ -19554,7 +19566,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "FISCUS,JACLYN M            C"
+                    "instructor": "FISCUS,JACLYN M            O"
                 },
                 {
                     "SLN": "13911",
@@ -20280,7 +20292,7 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "SHIVERS-MCNAIR,ANN E       O"
+                    "instructor": "SHIVERS-MCNAIR,ANN E       C"
                 }
             ]
         },
@@ -21526,7 +21538,7 @@
                             "room": "123"
                         }
                     ],
-                    "instructor": "LEE,REGINA Y               C"
+                    "instructor": "LEE,REGINA Y               O"
                 },
                 {
                     "SLN": "14807",
@@ -22477,7 +22489,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "CHAN,KAM WING              O"
+                    "instructor": "CHAN,KAM WING              C"
                 }
             ]
         },
@@ -23312,7 +23324,7 @@
                             "room": "230"
                         }
                     ],
-                    "instructor": "SMALLWOOD,STEPHANIE E      C"
+                    "instructor": "SMALLWOOD,STEPHANIE E      O"
                 }
             ]
         },
@@ -23413,7 +23425,7 @@
                             "room": "330"
                         }
                     ],
-                    "instructor": "SEARS,LAURIE J             C"
+                    "instructor": "SEARS,LAURIE J             O"
                 }
             ]
         },
@@ -23619,7 +23631,7 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "WARREN,ADAM W              O"
+                    "instructor": "WARREN,ADAM W              C"
                 }
             ]
         }
@@ -23947,7 +23959,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "GLENN,SUSAN A              O"
+                    "instructor": "GLENN,SUSAN A              C"
                 },
                 {
                     "SLN": "15035",
@@ -24019,7 +24031,7 @@
                             "room": "123"
                         }
                     ],
-                    "instructor": "FINDLAY,JOHN M             C"
+                    "instructor": "FINDLAY,JOHN M             O"
                 }
             ]
         },
@@ -24105,7 +24117,7 @@
                             "room": "230"
                         }
                     ],
-                    "instructor": "HASEGAWA,KAZUMI            O"
+                    "instructor": "HASEGAWA,KAZUMI            C"
                 },
                 {
                     "SLN": "15089",
@@ -24981,7 +24993,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "RADNITZ,SCOTT B.           O"
+                    "instructor": "RADNITZ,SCOTT B.           C"
                 }
             ]
         },
@@ -25549,7 +25561,7 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "WINTER,KRISTI G            C"
+                    "instructor": "WINTER,KRISTI G                     "
                 },
                 {
                     "SLN": "10568",
@@ -25577,7 +25589,7 @@
                             "room": "113"
                         }
                     ],
-                    "instructor": "WINTER,KRISTI G            C"
+                    "instructor": "WINTER,KRISTI G                     "
                 },
                 {
                     "SLN": "10570",
@@ -25631,7 +25643,7 @@
                             "room": "123"
                         }
                     ],
-                    "instructor": "FORSHAY,LANCE              C"
+                    "instructor": "FORSHAY,LANCE                       "
                 }
             ]
         },
@@ -25658,7 +25670,7 @@
                             "room": "230"
                         }
                     ],
-                    "instructor": "MCGARRITY,LAURA WILBUR     C"
+                    "instructor": "MCGARRITY,LAURA WILBUR     O"
                 },
                 {
                     "SLN": "16229",
@@ -25756,7 +25768,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "JONES,BENJAMIN             C"
+                    "instructor": "JONES,BENJAMIN             O"
                 },
                 {
                     "SLN": "16236",
@@ -25988,7 +26000,7 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "HANDEL,ZEV                 C"
+                    "instructor": "HANDEL,ZEV                          "
                 }
             ]
         },
@@ -26053,7 +26065,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "OMAKI,AKIRA                C"
+                    "instructor": "OMAKI,AKIRA                O"
                 }
             ]
         },
@@ -28606,7 +28618,7 @@
                             "room": "930"
                         }
                     ],
-                    "instructor": "PERLMAN,MICHAEL D          C"
+                    "instructor": "PERLMAN,MICHAEL D                   "
                 }
             ]
         },
@@ -30173,7 +30185,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "SUNARDI,CHRISTINA          C"
+                    "instructor": "SUNARDI,CHRISTINA          O"
                 }
             ]
         },
@@ -33432,7 +33444,8 @@
                             "building": "KNE",
                             "room": "930"
                         }
-                    ]
+                    ],
+                    "instructor": "MCCUSKER,DARCY             C"
                 },
                 {
                     "SLN": "18279",
@@ -33445,7 +33458,8 @@
                             "building": "KNE",
                             "room": "930"
                         }
-                    ]
+                    ],
+                    "instructor": "ROBUS,OLIN M.              C"
                 },
                 {
                     "SLN": "18280",
@@ -33458,7 +33472,8 @@
                             "building": "BAG",
                             "room": "103"
                         }
-                    ]
+                    ],
+                    "instructor": "MCCUSKER,DARCY             C"
                 },
                 {
                     "SLN": "18281",
@@ -33471,7 +33486,8 @@
                             "building": "MOR",
                             "room": "103"
                         }
-                    ]
+                    ],
+                    "instructor": "ROBUS,OLIN M.              C"
                 },
                 {
                     "SLN": "18283",
@@ -33484,7 +33500,8 @@
                             "building": "SAV",
                             "room": "113"
                         }
-                    ]
+                    ],
+                    "instructor": "ROBUS,OLIN M.              C"
                 },
                 {
                     "SLN": "18284",
@@ -33497,7 +33514,8 @@
                             "building": "SAV",
                             "room": "123"
                         }
-                    ]
+                    ],
+                    "instructor": "MCCUSKER,DARCY             C"
                 }
             ]
         },
@@ -33643,7 +33661,7 @@
                             "room": "930"
                         }
                     ],
-                    "instructor": "HUERTER,SOFIA E.           C"
+                    "instructor": "HUERTER,SOFIA E.           O"
                 },
                 {
                     "SLN": "18297",
@@ -33781,7 +33799,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "YOMI-ODEDEYI,AYOMIDE A     O"
+                    "instructor": "YOMI-ODEDEYI,AYOMIDE A               "
                 },
                 {
                     "SLN": "21511",
@@ -33809,7 +33827,7 @@
                             "room": "230"
                         }
                     ],
-                    "instructor": "YOMI-ODEDEYI,AYOMIDE A     O"
+                    "instructor": "YOMI-ODEDEYI,AYOMIDE A               "
                 }
             ]
         },
@@ -34128,7 +34146,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "YOMI-ODEDEYI,AYOMIDE A     O"
+                    "instructor": "YOMI-ODEDEYI,AYOMIDE A               "
                 },
                 {
                     "SLN": "20698",
@@ -34156,7 +34174,7 @@
                             "room": "230"
                         }
                     ],
-                    "instructor": "YOMI-ODEDEYI,AYOMIDE A     O"
+                    "instructor": "YOMI-ODEDEYI,AYOMIDE A               "
                 }
             ]
         },
@@ -34543,7 +34561,7 @@
                             "room": "530"
                         }
                     ],
-                    "instructor": "PENGRA,DAVID B.            C"
+                    "instructor": "PENGRA,DAVID B.            O"
                 },
                 {
                     "SLN": "18350",
@@ -38969,7 +38987,7 @@
                             "room": "123"
                         }
                     ],
-                    "instructor": "JENNER,LARS B.             O"
+                    "instructor": "JENNER,LARS B.             C"
                 }
             ]
         },
@@ -39762,7 +39780,7 @@
                             "room": "113"
                         }
                     ],
-                    "instructor": "FROST,ANN C                C"
+                    "instructor": "FROST,ANN C                O"
                 },
                 {
                     "SLN": "21229",
@@ -40799,7 +40817,8 @@
                             "building": "MTWT",
                             "room": "103"
                         }
-                    ]
+                    ],
+                    "instructor": "BARNABY,ALFREDO            O"
                 },
                 {
                     "SLN": "19398",
@@ -40812,7 +40831,8 @@
                             "building": "MTWT",
                             "room": "123"
                         }
-                    ]
+                    ],
+                    "instructor": "MCCOY,ERIN L               O"
                 }
             ]
         },
@@ -40831,8 +40851,7 @@
                             "building": "MTWT",
                             "room": "930"
                         }
-                    ],
-                    "instructor": "SPANNAGEL,SABRINA          C"
+                    ]
                 },
                 {
                     "SLN": "19400",
@@ -40859,7 +40878,8 @@
                             "building": "MTWT",
                             "room": "113"
                         }
-                    ]
+                    ],
+                    "instructor": "SPANNAGEL,SABRINA          O"
                 },
                 {
                     "SLN": "19402",
@@ -41106,7 +41126,8 @@
                             "building": "MTWT",
                             "room": "113"
                         }
-                    ]
+                    ],
+                    "instructor": "ARROYAVE,JUAN              C"
                 }
             ]
         },
@@ -41186,7 +41207,8 @@
                             "building": "LOW",
                             "room": "113"
                         }
-                    ]
+                    ],
+                    "instructor": "HERLAND,MARGARET           O"
                 }
             ]
         },
@@ -41570,7 +41592,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "PACE,AMY E                 O"
+                    "instructor": "PACE,AMY E                 C"
                 }
             ]
         },
@@ -42561,7 +42583,7 @@
                             "room": "930"
                         }
                     ],
-                    "instructor": "PERLMAN,MICHAEL D          C"
+                    "instructor": "PERLMAN,MICHAEL D                    "
                 }
             ]
         },
@@ -43309,7 +43331,7 @@
                             "room": "100"
                         }
                     ],
-                    "instructor": "HUNTER,JACK T              C"
+                    "instructor": "HUNTER,JACK T              O"
                 }
             ]
         },
@@ -43982,7 +44004,7 @@
                             "room": "330"
                         }
                     ],
-                    "instructor": "SHAIMAN,JAMES L            C"
+                    "instructor": "SHAIMAN,JAMES L            O"
                 }
             ]
         },
@@ -44057,7 +44079,7 @@
                             "room": "600"
                         }
                     ],
-                    "instructor": "AMINIAN,KAVEH              O"
+                    "instructor": "AMINIAN,KAVEH              C"
                 }
             ]
         },
@@ -49908,7 +49930,7 @@
                             "room": "103"
                         }
                     ],
-                    "instructor": "DAVIS,CAROL                C"
+                    "instructor": "DAVIS,CAROL                O"
                 }
             ]
         },
@@ -50237,7 +50259,7 @@
                             "room": "330"
                         }
                     ],
-                    "instructor": "TESFAY,ADIAM                         "
+                    "instructor": "TESFAY,ADIAM                        "
                 },
                 {
                     "SLN": "13687",
@@ -50613,11 +50635,6 @@
                     "instructor": "DIETRICH,LYNN              O"
                 }
             ]
-        },
-        {
-            "num": "402",
-            "title": "SOCIAL POLICY",
-            "sections": []
         },
         {
             "num": "403",
@@ -54967,7 +54984,7 @@
                             "room": "930"
                         }
                     ],
-                    "instructor": "TOMPA,MARTIN               C"
+                    "instructor": "TOMPA,MARTIN               O"
                 },
                 {
                     "SLN": "12729",
@@ -56828,7 +56845,8 @@
                             "building": "CSE",
                             "room": "230"
                         }
-                    ]
+                    ],
+                    "instructor": "ROESNER,FRANZISKA          O"
                 },
                 {
                     "SLN": "12876",
@@ -56908,7 +56926,7 @@
                             "room": "930"
                         }
                     ],
-                    "instructor": "BALAZINSKA,MAGDALENA       O"
+                    "instructor": "BALAZINSKA,MAGDALENA       C"
                 },
                 {
                     "SLN": "12905",
@@ -58327,7 +58345,7 @@
                             "room": "113"
                         }
                     ],
-                    "instructor": "HARNETT,ERIKA              O"
+                    "instructor": "HARNETT,ERIKA              C"
                 },
                 {
                     "SLN": "21403",
@@ -58395,7 +58413,7 @@
                             "room": "930"
                         }
                     ],
-                    "instructor": "BERGANTZ,GEORGE W          O"
+                    "instructor": "BERGANTZ,GEORGE W          C"
                 }
             ]
         },
@@ -59916,7 +59934,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "DITTBRENNER,BENJAMIN J     O"
+                    "instructor": "DITTBRENNER,BENJAMIN J     C"
                 }
             ]
         },
@@ -61967,7 +61985,7 @@
                             "room": "930"
                         }
                     ],
-                    "instructor": "MCKENNA,ANDREW CHARLES     O"
+                    "instructor": "MCKENNA,ANDREW CHARLES     C"
                 }
             ]
         },
@@ -61993,7 +62011,7 @@
                             "room": "430"
                         }
                     ],
-                    "instructor": "HENDRY,DAVID               O"
+                    "instructor": "HENDRY,DAVID               C"
                 },
                 {
                     "SLN": "15396",
@@ -63199,7 +63217,8 @@
                             "building": "BNS",
                             "room": "330"
                         }
-                    ]
+                    ],
+                    "instructor": "DAVIS,COURTNEY             C"
                 },
                 {
                     "SLN": "17695",
@@ -63212,7 +63231,8 @@
                             "building": "BNS",
                             "room": "830"
                         }
-                    ]
+                    ],
+                    "instructor": "DAVIS,COURTNEY             C"
                 },
                 {
                     "SLN": "17696",
@@ -63225,7 +63245,8 @@
                             "building": "BNS",
                             "room": "830"
                         }
-                    ]
+                    ],
+                    "instructor": "GORE,ELIZABETH E           C"
                 },
                 {
                     "SLN": "17697",
@@ -63238,7 +63259,8 @@
                             "building": "BNS",
                             "room": "930"
                         }
-                    ]
+                    ],
+                    "instructor": "DAVIS,COURTNEY             C"
                 },
                 {
                     "SLN": "17698",
@@ -63251,7 +63273,8 @@
                             "building": "BNS",
                             "room": "130"
                         }
-                    ]
+                    ],
+                    "instructor": "GORE,ELIZABETH E           C"
                 },
                 {
                     "SLN": "17699",
@@ -63264,7 +63287,8 @@
                             "building": "BNS",
                             "room": "230"
                         }
-                    ]
+                    ],
+                    "instructor": "GORE,ELIZABETH E           C"
                 }
             ]
         },
@@ -63303,7 +63327,8 @@
                             "building": "MGH",
                             "room": "430"
                         }
-                    ]
+                    ],
+                    "instructor": "VOGLIANO,CHRISTOPHER       C"
                 }
             ]
         },
@@ -64428,7 +64453,7 @@
                             "room": "123"
                         }
                     ],
-                    "instructor": "KIMELMAN,DAVID                       "
+                    "instructor": "KIMELMAN,DAVID                      "
                 },
                 {
                     "SLN": "11115",
@@ -66577,7 +66602,7 @@
                             "room": "700"
                         }
                     ],
-                    "instructor": "GOLDENBERG,EDWARD E        O"
+                    "instructor": "GOLDENBERG,EDWARD E        C"
                 }
             ]
         },
@@ -67963,7 +67988,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "DOWNING,DONALD F           O"
+                    "instructor": "DOWNING,DONALD F           C"
                 }
             ]
         },
@@ -70269,7 +70294,7 @@
                             "room": "113"
                         }
                     ],
-                    "instructor": "BASEMAN,JANET G.           O"
+                    "instructor": "BASEMAN,JANET G.           C"
                 },
                 {
                     "SLN": "14140",
@@ -70848,7 +70873,7 @@
                             "room": "130"
                         }
                     ],
-                    "instructor": "BEZRUCHKA,STEPHEN A.       C"
+                    "instructor": "BEZRUCHKA,STEPHEN A.       O"
                 },
                 {
                     "SLN": "14960",
@@ -70876,7 +70901,7 @@
                             "room": "120"
                         }
                     ],
-                    "instructor": "EHRLICH,PATRICIA O         C"
+                    "instructor": "EHRLICH,PATRICIA O         O"
                 },
                 {
                     "SLN": "14962",

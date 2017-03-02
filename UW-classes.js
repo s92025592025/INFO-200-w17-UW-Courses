@@ -197,35 +197,66 @@ module.exports.buildSchedule = function (classes){
 		}
 	}
 	var temp = [];
-	this._buildSchedule(classInfoList, {}, [], temp)
-	console.log(temp);
+	this._buildSchedule(classInfoList, {}, temp)
+	return temp;
 }
 
 // pre: backtrack recursion to build schedule, should pass in an array of classes info
 //		from buildSchedule, an empty stack to schedules, and array to final schedule in
 //		order to track all built schedule
 // post: will return an array of possible schedule each in json object
-module.exports._buildSchedule = function (classes, scheduleJson, schedules, finalSchedule){
+module.exports._buildSchedule = function (classes, scheduleJson, finalSchedule){
 	if(classes.length <= 0){
-		finalSchedule.push(scheduleJson);
+		var temp = {};
+		// copy the value instead of reference
+		for(var key in scheduleJson){
+			temp[key] = scheduleJson[key];
+		}
 
+		finalSchedule.push(temp);
 		return true;
 	}
 
-	for(var i = 0; i < classes[classes.length - 1].length; i++){
-		console.log(classes[classes.length - 1][i]);
-		var className = classes[classes.length - 1][i].abbr + " " +
-						classes[classes.length - 1][i].num + " " +
-						classes[classes.length - 1][i].credit;
-		scheduleJson[className] = classes[classes.length - 1][i];
-		if(!this._checkConflict(scheduleJson)){
-			delete scheduleJson[className];
+
+	var sections = classes.pop();
+	var sectionLec = [];
+	var sectionQZ = [];
+	// distinguish QC and Lecture
+	for(var i = 0; i < sections.length; i++){
+		if(sections[i].credit == 'QZ'){
+			sectionQZ.push(sections[i]);
+		}else{
+			sectionLec.push(sections[i])
 		}
 	}
 
-	var temp = classes.pop();
-	this._buildSchedule(classes, scheduleJson, schedules, finalSchedule);
-	classes.push(temp);
+	for(var i = 0; i < sectionLec.length; i++){
+		var lecName = sectionLec[i].abbr + " " + 
+					  sectionLec[i].num + " " + 
+					  sectionLec[i].section;
+
+		scheduleJson[lecName] = sectionLec[i];
+
+		if(sectionQZ.length != 0){
+			for(var s = 0; s < sectionQZ.length; s++){
+				var qzName = sectionQZ[s].abbr + " " +
+							 sectionQZ[s].num + " " +
+							 sectionQZ[s].section;
+				scheduleJson[qzName] = sectionQZ[s];
+				console.log(scheduleJson);
+				if(this._checkConflict(scheduleJson)){
+					this._buildSchedule(classes, scheduleJson, finalSchedule)
+				}
+				delete scheduleJson[qzName];
+			}
+		}else{
+			if(this._checkConflict(scheduleJson)){
+					this._buildSchedule(classes, scheduleJson, finalSchedule)
+			}
+		}
+
+		delete scheduleJson[lecName];
+	}
 }
 
 // pre: pass in a json array of class
@@ -286,21 +317,6 @@ module.exports._checkTimeConflict = function (time1, time2){
 				if(meetTime2[0] <= meetTime1[1] && meetTime2[1] >= meetTime1[1]){
 					return false;
 				}
-			}
-		}
-	}
-
-	return true;
-}
-
-
-// pre: should give a current array of json schedule to schedule, section json to section
-// post: will return true if course type is not same in a course, and vice versa
-module.exports._checkCourseCombine = function (schedule, section){
-	for(var key in schedule){
-		if(schedule[key].abbr == section.abbr && schedule[key].num == section.num){
-			if(schedule[key].credit == section.credit){
-				return false;
 			}
 		}
 	}
